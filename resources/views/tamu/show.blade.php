@@ -69,11 +69,11 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Icam & Tami Wedding" />
 	<meta property="og:description" content="Klik Untuk Membuka Undangan" />
-	<meta property="og:site_name" content="Galipat Story" />
+	<meta property="og:site_name" content="Mawedding" />
 	<meta property="article:section" content="Uncategorized" />
 	<meta property="og:updated_time" content="2024-03-18T21:42:26+07:00" />
-	<meta property="og:image" content="images/DSCF6531.webp" />
-	<meta property="og:image:secure_url" content="images/DSCF6531.webp" />
+	<meta property="og:image" content="{{asset('images/DSCF6531.webp')}}" />
+	<meta property="og:image:secure_url" content="{{asset('images/DSCF6531.webp')}}" />
 	<meta property="og:image:width" content="640" />
 	<meta property="og:image:height" content="960" />
 	<meta property="og:image:alt" content="Icam & Tami Wedding" />
@@ -81,7 +81,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Icam & Tami Wedding" />
 	<meta name="twitter:description" content="Klik Untuk Membuka Undangan" />
-	<meta name="twitter:image" content="images/DSCF6531.webp" />
+	<meta name="twitter:image" content="{{asset('images/DSCF6531.webp')}}" />
 	<meta name="twitter:label1" content="Ditulis oleh" />
 	<meta name="twitter:data1" content="Ikhwan" />
 	<meta name="twitter:label2" content="Waktunya membaca" />
@@ -106,11 +106,11 @@
             color: #888;
         }
     </style>
-	<link rel="alternate" type="application/rss+xml" title="Galipat Story &raquo; Feed"
+	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Feed"
 		href="https://galipat-story.com/feed/" />
-	<link rel="alternate" type="application/rss+xml" title="Galipat Story &raquo; Umpan Komentar"
+	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Umpan Komentar"
 		href="https://galipat-story.com/comments/feed/" />
-	<link rel="alternate" type="application/rss+xml" title="Galipat Story &raquo; PR#31 Umpan Komentar"
+	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; PR#31 Umpan Komentar"
 		href="https://galipat-story.com/pr31/feed/" />
 	<link rel='stylesheet' id='bdt-uikit-css'
 		href='https://galipat-story.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.5.5'
@@ -124,7 +124,7 @@
 		<style>
 			@font-face {
 				font-family: qene;
-				src: url(font/qene.otf);
+				src: url(../font/qene.otf);
 			}
 			@font-face {
 				font-family: iskry;
@@ -3277,7 +3277,7 @@
 		.elementor-19910 .elementor-element.elementor-element-7de83c07:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-7de83c07>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #272727;
-			background-image: url("images/DSCF6531.webp");
+			background-image: url("../images/DSCF6531.webp");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -8649,7 +8649,7 @@
 														display: inline-block
 													}
 												</style> <img fetchpriority="high" decoding="async" width="640"
-													height="960" src="images/DSCF6531.webp"
+													height="960" src="{{asset('images/DSCF6531.webp')}}"
 													class="attachment-full size-full wp-image-19906" alt="" />
 											</div>
 										</div>
@@ -8705,7 +8705,7 @@
 															data-widget_type="image.default">
 															<div class="elementor-widget-container">
 																<img decoding="async" width="480" height="384"
-																	src="images/giphy-1-1-2.gif"
+																	src="{{asset('images/giphy-1-1-2.gif')}}"
 																	class="attachment-large size-large wp-image-19775"
 																	alt="" />
 															</div>
@@ -9170,7 +9170,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{asset('images/rrytyu-e1698384778295.png')}}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -9283,7 +9283,7 @@
 								</div>
 							</div>
 						</section>
-						<!-- <section class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-1e9c0754 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="1e9c0754" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<section class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-1e9c0754 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no" data-id="1e9c0754" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="has_eae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2760d91f wdp-sticky-section-no" data-id="2760d91f" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -9312,7 +9312,7 @@
 				</div>
 				<div class="elementor-element elementor-element-148761b5 elementor-absolute wdp-sticky-section-no elementor-widget elementor-widget-image" data-id="148761b5" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="480" height="384" src="images/giphy-1-1-2.gif" class="attachment-large size-large wp-image-19775" alt="" />															</div>
+															<img decoding="async" width="480" height="384" src="{{asset('images/giphy-1-1-2.gif')}}" class="attachment-large size-large wp-image-19775" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-6715e957 wdp-sticky-section-no elementor-widget elementor-widget-heading" data-id="6715e957" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -9342,20 +9342,7 @@
 		</div>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-264f4768 wdp-sticky-section-no elementor-widget elementor-widget-heading" data-id="264f4768" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Bertempat di <br>Stitaco Cafe. Jln. Cisalak No 22 Kota Tasikmalaya (Samping Cisalak Pratama)</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-51e9bc68 elementor-mobile-align-center elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button" data-id="51e9bc68" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-size-xs" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fas fa-map-marked-alt"></i>			</span>
-						<span class="elementor-button-text">Google maps</span>
-		</span>
-					</a>
+				
 		</div>
 				</div>
 				</div>
@@ -9376,7 +9363,7 @@
 					</div>
 		</div>
 							</div>
-		</section> -->
+		</section>
 						<section
 							class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-7a5d05c7 animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no elementor-invisible"
 							data-id="7a5d05c7" data-element_type="section"
@@ -9402,7 +9389,7 @@
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<img decoding="async" width="480" height="384"
-													src="images/giphy-1-1-2.gif"
+													src="{{asset('images/giphy-1-1-2.gif')}}"
 													class="attachment-large size-large wp-image-19775" alt="" />
 											</div>
 										</div>
@@ -9459,12 +9446,47 @@
 													<br>Stitaco Cafe. Jln. Cisalak No 22 Kota Tasikmalaya (Samping Cisalak Pratama)</h2>
 											</div>
 										</div>
+
+										<div class="elementor-element elementor-element-1005eed5 e-transform elementor-widget-divider--view-line wdp-sticky-section-no elementor-widget elementor-widget-divider"
+                                                            data-id="1005eed5" data-element_type="widget"
+                                                            data-settings="{&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:90,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                                            data-widget_type="divider.default">
+
+                                                            <div class= "elementor-element elementor-element-8949191 wdp-sticky-section-no elementor-widget elementor-widget-heading"
+                                                                                            data-id="8949191" data-element_type="widget"
+                                                                data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}"
+                                                                data-widget_type="google_maps.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <style>
+                                                                    /*! elementor - v3.15.0 - 02-08-2023 */
+                                                                    .elementor-widget-google_maps .elementor-widget-container {
+                                                                        overflow: hidden
+                                                                    }
+
+                                                                    .elementor-widget-google_maps .elementor-custom-embed {
+                                                                        line-height: 0
+                                                                    }
+
+                                                                    .elementor-widget-google_maps iframe {
+                                                                        height: 300px
+                                                                    }
+                                                                    </style>
+                                                                    <div class="elementor-custom-embed">
+                                                                        <iframe
+                                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.369910237659!2d108.22769167593657!3d-7.312275692695654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f574b9e1ccbd3%3A0x227a89ff4bfd59f4!2sSTITACO%20CAFE!5e0!3m2!1sen!2sid!4v1728982786357!5m2!1sen!2sid"
+                                                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
 										<div class="elementor-element elementor-element-1fc6f0cf elementor-mobile-align-center elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button"
 											data-id="1fc6f0cf" data-element_type="widget"
 											data-widget_type="button.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-button-wrapper">
-													<a class="elementor-button elementor-size-xs" role="button">
+													<a class="elementor-button elementor-size-xs" role="button" href="https://maps.app.goo.gl/YRgzKfu7ky5xFnt89" target="stitaco">
 														<span class="elementor-button-content-wrapper">
 															<span
 																class="elementor-button-icon elementor-align-icon-left">
@@ -9897,192 +9919,94 @@
 												</style>
 												<div class="elementor-gallery__container">
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6531.webp"
+														href="{{asset('images/DSCF6531.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754254.jpg"
+														data-elementor-lightbox-title="DSCF6531"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3ODksInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1NC0yLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6531.webp"
+															data-thumbnail="{{asset('images/DSCF6531.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6521.webp"
+														href="{{asset('images/DSCF6521.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754224.jpg"
+														data-elementor-lightbox-title="DSCF6521"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTAsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDIyNC0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6521.webp"
+															data-thumbnail="{{asset('images/DSCF6521.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6540.webp"
+														href="{{asset('images/DSCF6540.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754169.jpg"
+														data-elementor-lightbox-title="DSCF6540"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTEsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDE2OS0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6540.webp"
+															data-thumbnail="{{asset('images/DSCF6540.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6528.webp"
+														href="{{asset('images/DSCF6528.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754257.jpg"
+														data-elementor-lightbox-title="DSCF6528"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTIsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Ny0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6528.webp"
+															data-thumbnail="{{asset('images/DSCF6528.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6599-Copy.jpg"
+														href="{{asset('images/DSCF6599-Copy.jpg')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754270.jpg"
+														data-elementor-lightbox-title="DSCF6599-Copy"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3NzcsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI3MC0yLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6599-Copy.jpg"
+															data-thumbnail="{{asset('images/DSCF6599-Copy.jpg')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6568.webp"
+														href="{{asset('images/DSCF6568.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754252.jpg"
+														data-elementor-lightbox-title="DSCF6568"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTMsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Mi0zLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6568.webp"
+															data-thumbnail="{{asset('images/DSCF6568.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6588-bw.webp"
+														href="{{asset('images/DSCF6588-bw.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754284-1.jpg"
+														data-elementor-lightbox-title="DSCF6588-bw"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTQsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI4NC0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6588-bw.webp"
+															data-thumbnail="{{asset('images/DSCF6588-bw.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6583.webp"
+														href="{{asset('images/DSCF6583.webp')}}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754254-1.jpg"
+														data-elementor-lightbox-title="DSCF6583"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTUsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1NC0xLTIuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6583.webp"
+															data-thumbnail="{{asset('images/DSCF6583.webp')}}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754283-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754283-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3ODcsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI4My0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754283-1-1.jpg"
-															data-width="640" data-height="960" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754163-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754163.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTYsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDE2My0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754163-1.jpg"
-															data-width="640" data-height="960" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754297-2.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754297.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTcsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI5Ny0yLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754297-2.jpg"
-															data-width="640" data-height="961" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754241-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754241.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTgsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI0MS0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754241-1.jpg"
-															data-width="640" data-height="960" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754252-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754252-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk4MDAsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Mi0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754252-1-1.jpg"
-															data-width="640" data-height="960" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754254-1-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754254-1-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3ODgsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1NC0xLTEtMS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNjU4MGRjOGYifQ%3D%3D">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754254-1-1-1.jpg"
-															data-width="640" data-height="960" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754244-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754244-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3ODYsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI0NC0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754244-1-1.jpg"
-															data-width="640" data-height="903" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754297-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754297-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk4MDEsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI5Ny0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754297-1-1.jpg"
-															data-width="640" data-height="961" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
-													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754256-FILEminimizer-2-1-1.jpg"
-														data-elementor-open-lightbox="yes"
-														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="pexels-ba-tik-3754256-FILEminimizer-2-1.jpg"
-														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTksInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Ni1GSUxFbWluaW1pemVyLTItMS0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
-														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754256-FILEminimizer-2-1-1.jpg"
-															data-width="1150" data-height="768" alt=""></div>
-														<div class="elementor-gallery-item__overlay"></div>
-													</a>
+													
 												</div>
 											</div>
 										</div>
@@ -10122,7 +10046,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{asset('images/rrytyu-e1698384778295.png')}}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -10316,7 +10240,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{asset('images/rrytyu-e1698384778295.png')}}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -10535,7 +10459,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="1600" height="625"
-																					src="images/bca.png"
+																					src="{{asset('images/bca.png')}}"
 																					class="attachment-full size-full wp-image-19804"
 																					alt="" />
 																			</div>
@@ -10547,7 +10471,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="150" height="150"
-																					src="images/chip-atm.png"
+																					src="{{asset('images/chip-atm.png')}}"
 																					class="attachment-full size-full wp-image-19805"
 																					alt="" />
 																			</div>
@@ -10648,7 +10572,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="1600" height="625"
-																					src="images/mandiri.png"
+																					src="{{asset('images/bri.png')}}"
 																					class="attachment-full size-full wp-image-19804"
 																					alt="" />
 																			</div>
@@ -10660,7 +10584,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="150" height="150"
-																					src="images/chip-atm.png"
+																					src="{{asset('images/chip-atm.png')}}"
 																					class="attachment-full size-full wp-image-19805"
 																					alt="" />
 																			</div>
@@ -10930,7 +10854,7 @@
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<img fetchpriority="high" decoding="async" width="640" height="960"
-													src="images/DSCF6531.webp"
+													src="{{asset('images/DSCF6531.webp')}}"
 													class="attachment-full size-full wp-image-19906" alt="" />
 											</div>
 										</div>
@@ -10986,7 +10910,7 @@
 															data-widget_type="image.default">
 															<div class="elementor-widget-container">
 																<img decoding="async" width="480" height="384"
-																	src="images/giphy-1-1-2.gif"
+																	src="{{asset('images/giphy-1-1-2.gif')}}"
 																	class="attachment-large size-large wp-image-19775"
 																	alt="" />
 															</div>
@@ -11009,11 +10933,7 @@
 										<div class="elementor-element elementor-element-6b457e92 wdp-sticky-section-no elementor-widget elementor-widget-image"
 											data-id="6b457e92" data-element_type="widget"
 											data-widget_type="image.default">
-											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="750" height="750"
-													src="https://galipat-story.com/wp-content/uploads/2024/02/png-transparan-watermark-1-1024x1024.png"
-													class="attachment-large size-large wp-image-19389" alt="" />
-											</div>
+											
 										</div>
 										<div class="elementor-element elementor-element-5f1adb64 wdp-sticky-section-no elementor-widget elementor-widget-heading"
 											data-id="5f1adb64" data-element_type="widget"
@@ -11029,7 +10949,7 @@
 											class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-471a11ad elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
 											data-id="471a11ad" data-element_type="section">
 											<div class="elementor-container elementor-column-gap-default">
-												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-68e84052 wdp-sticky-section-no"
+												{{-- <div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-68e84052 wdp-sticky-section-no"
 													data-id="68e84052" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-1c5b2456 elementor-align-right wdp-sticky-section-no elementor-widget elementor-widget-button"
@@ -11053,8 +10973,8 @@
 															</div>
 														</div>
 													</div>
-												</div>
-												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
+												</div> --}}
+												<div class="has_eae_slider elementor-column elementor-col-33 row-align-items-cente elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
 													data-id="d6ca7e6" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-7d22e8fe elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button"
@@ -11078,7 +10998,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4fc1a28e wdp-sticky-section-no"
+												{{-- <div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4fc1a28e wdp-sticky-section-no"
 													data-id="4fc1a28e" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-10b761df elementor-align-left wdp-sticky-section-no elementor-widget elementor-widget-button"
@@ -11102,7 +11022,7 @@
 															</div>
 														</div>
 													</div>
-												</div>
+												</div> --}}
 											</div>
 										</section>
 										<section
