@@ -5055,7 +5055,7 @@
 		.elementor-19910 .elementor-element.elementor-element-3321f11d:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-3321f11d>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/Background-atm-invitren-1.jpg");
+			background-image: url("../images/card.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -5147,7 +5147,7 @@
 		.elementor-19910 .elementor-element.elementor-element-1df7294d:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-1df7294d>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/Background-atm-invitren-1.jpg");
+			background-image: url("../images/card.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -10745,7 +10745,7 @@
 																									class="far fa-copy"></i>
 																							</span>
 																							<span
-																								class="elementor-button-text">Salin
+																								class="elementor-button-text">Copy
 																								Alamat</span>
 																						</div>
 																					</a>
