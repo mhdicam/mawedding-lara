@@ -3538,7 +3538,7 @@
 		.elementor-19910 .elementor-element.elementor-element-309918f9:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-309918f9>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3627,7 +3627,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-11d919b9:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-11d919b9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/11.png");
+			background-image: url("../images/11.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3957,7 +3957,7 @@
 		.elementor-19910 .elementor-element.elementor-element-118902f1:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-118902f1>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4059,7 +4059,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-1e9c0754:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-1e9c0754>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/11.png");
+			background-image: url("../images/11.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4105,7 +4105,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-450294cc>.elementor-element-populated>.elementor-background-overlay {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 			opacity: 1;
@@ -4272,7 +4272,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-25852b41>.elementor-element-populated>.elementor-background-overlay {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 			opacity: 0.99;
@@ -4658,7 +4658,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-2705c80e:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-2705c80e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/11.png");
+			background-image: url("../images/11.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4744,7 +4744,7 @@
 		.elementor-19910 .elementor-element.elementor-element-7d629d53:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-7d629d53>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4873,7 +4873,7 @@
 		.elementor-19910 .elementor-element.elementor-element-1b7dc55f:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-1b7dc55f>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -5332,7 +5332,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-3712a778:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-3712a778>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://galipat-story.com/wp-content/uploads/2024/03/12.png");
+			background-image: url("../images/merak.png");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -8156,15 +8156,15 @@
 		}
 	</style>
 	<link rel="icon"
-		href="https://galipat-story.com/wp-content/uploads/2023/12/cropped-png-transparan-watermark-1-2-32x32.png"
+		href="../images/IT(4).png"
 		sizes="32x32" />
 	<link rel="icon"
-		href="https://galipat-story.com/wp-content/uploads/2023/12/cropped-png-transparan-watermark-1-2-192x192.png"
+		href="../images/IT(4).png"
 		sizes="192x192" />
 	<link rel="apple-touch-icon"
-		href="https://galipat-story.com/wp-content/uploads/2023/12/cropped-png-transparan-watermark-1-2-180x180.png" />
+		href="../images/IT(4).png" />
 	<meta name="msapplication-TileImage"
-		content="https://galipat-story.com/wp-content/uploads/2023/12/cropped-png-transparan-watermark-1-2-270x270.png" />
+		content="../images/IT(4).png" />
 	<!-- Facebook Pixel Code -->
 	<script>
 		!function (f, b, e, v, n, t, s) {
