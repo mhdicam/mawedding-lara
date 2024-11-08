@@ -9565,7 +9565,7 @@
 		</div>
 							</div>
 		</section> -->
-						<section
+						{{-- <section
 							class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-a93f183 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
 							data-id="a93f183" data-element_type="section"
 							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -9683,7 +9683,7 @@
 									</div>
 								</div>
 							</div>
-						</section>
+						</section> --}}
 						<section
 							class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-2705c80e elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
 							data-id="2705c80e" data-element_type="section"
