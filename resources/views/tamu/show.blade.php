@@ -10727,7 +10727,7 @@
 																					Icam</div>
 																				<div class="elementor-button-wrapper">
 																					<div
-																						class="copy-content spancontent">
+																						class="copy-content spancontent head-tile">
 																						Perumahan Bumi Asri Dirgantara Blok B.92
 																						Kota Tasikmalaya</div>
 
