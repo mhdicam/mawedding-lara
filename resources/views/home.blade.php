@@ -10302,34 +10302,31 @@
 																					</div>
 																				</div>
 																			</div>
-                                                                            <form id="form-comment" style="padding-top: 50px; padding-left:1rem;padding-right:1rem;" action="{{route('comment.store')}}" method="POST">
-                                                                                        @csrf
-                                                                                        @method('POST')
-																						<input type="text" id="name" placeholder="Nama" name="nama" required style="width:100%; margin-bottom: 10px;">
-																						<textarea id="comment" name="komentar" placeholder="Komentar" required></textarea>
-																						<button type="submit">Kirim Komentar</button>
-																				</form>
-                                                                                <!-- card section for komentar -->
-                                                                                 <section style="margin-top: 2rem; padding-left:1rem; padding-right:1rem;">
+																			<form id="form-comment" style="padding-top: 50px; padding-left:1rem; padding-right:1rem;" action="{{ route('comment.store') }}" method="POST">
+    @csrf
+    <input type="text" id="name" placeholder="Nama" name="nama" required style="width:100%; margin-bottom: 10px;">
+    <textarea id="comment" name="komentar" placeholder="Komentar" required></textarea>
+    <button type="submit">Kirim Komentar</button>
+</form>
 
-                                                                                     @foreach ($comment as $c )
-    
-                                                                                    <div class="cui-comment-card">
-                                                                                        <div class="cui-comment-card-header">
-                                                                                            <div class="cui-comment-card-header-avatar">
-                                                                                                <img src="https://secure.gravatar.com/avatar/
-                                                                                                {{md5($c->nama)}}?s=96&d=mm&r=g" alt="">
-                                                                                            </div>
-                                                                                            <div class="cui-comment-card-header-name">
-                                                                                                <h3>{{$c->nama}}</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="cui-comment-card-body">
-                                                                                            <p>{{$c->komentar}}</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                     @endforeach
-                                                                                 </section>
+<!-- Bagian untuk Menampilkan Komentar -->
+<section id="comments-section" style="margin-top: 2rem; padding-left:1rem; padding-right:1rem;">
+    @foreach ($comment as $c)
+        <div class="cui-comment-card">
+            <div class="cui-comment-card-header">
+                <div class="cui-comment-card-header-avatar">
+                    <img src="https://secure.gravatar.com/avatar/{{ md5($c->nama) }}?s=96&d=mm&r=g" alt="">
+                </div>
+                <div class="cui-comment-card-header-name">
+                    <h3>{{ $c->nama }}</h3>
+                </div>
+            </div>
+            <div class="cui-comment-card-body">
+                <p>{{ $c->komentar }}</p>
+            </div>
+        </div>
+    @endforeach
+</section>
 
 																		</div><!--.cui-wrap-form-->
 																		<div id='cui-comment-status-19910'
@@ -11162,35 +11159,65 @@
 			</div>
 		</section>
 	</div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('#form-comment').submit(function(e){
-                e.preventDefault();
-                var form = $(this);
-                var url = form.attr('action');
-                var type = form.attr('method');
-                var data = form.serialize();
-                $.ajax({
-                    url: url,
-                    type: type,
-                    data: data,
-                    success: function(response){
-                   
-                            Swal.fire({
-                                icon: 'success',
-                                title: 'Success',
-                                text: response.message,
-                                confirmButtonColor: '#3085d6',
-                                timer: 3000
-                            });
-                            $('#form-comment')[0].reset();
-                        
-                    }
+  $(document).ready(function() {
+    $('#form-comment').on('submit', function(e) {
+        e.preventDefault(); // Mencegah perilaku submit default
+
+        var form = $(this);
+        var url = form.attr('action');
+        var data = form.serialize();
+
+        $.ajax({
+            url: url,
+            type: 'POST',
+            data: data,
+            success: function(response) {
+                if (response.success) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success',
+                        text: response.message,
+                        confirmButtonColor: '#3085d6',
+                        timer: 3000
+                    });
+
+                    // Reset form setelah submit sukses
+                    $('#form-comment')[0].reset();
+
+                    // Tambahkan komentar baru ke bagian komentar
+                    var newComment = `
+                        <div class="cui-comment-card">
+                            <div class="cui-comment-card-header">
+                                <div class="cui-comment-card-header-avatar">
+                                    <img src="https://secure.gravatar.com/avatar/${md5(response.comment.nama)}?s=96&d=mm&r=g" alt="">
+                                </div>
+                                <div class="cui-comment-card-header-name">
+                                    <h3>${response.comment.nama}</h3>
+                                </div>
+                            </div>
+                            <div class="cui-comment-card-body">
+                                <p>${response.comment.komentar}</p>
+                            </div>
+                        </div>`;
+                    
+                    // Menambahkan komentar baru tanpa reload
+                    $('#comments-section').append(newComment);
+                }
+            },
+            error: function(xhr) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Terjadi kesalahan. Coba lagi nanti.',
+                    confirmButtonColor: '#d33'
                 });
-            });
-        })
-    </script>
+            }
+        });
+    });
+});
+
+</script>
 	<script>
 		jQuery(document).ready(function ($) {
 			const elFormDataCache = localStorage.getItem("elFormDataCache");
@@ -11400,18 +11427,7 @@
 			src="https://www.facebook.com/tr?id=724279088725440&amp;ev=PageView&amp;noscript=1" /></noscript>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.12/sweetalert2.all.min.js"></script>
 
-<script>
-    // Success message from session
-    @if(session('success'))
-        Swal.fire({
-            icon: 'success',
-            title: 'Success',
-            text: `{{ session('success') }}`,
-            confirmButtonColor: '#3085d6',
-            timer: 3000
-        });
-    @endif
-    </script>
+
 	<!-- ajax post id="form-comment" -->
      <!-- jquery cdn -->
   

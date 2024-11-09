@@ -7,23 +7,35 @@ use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
-    // store
-    public function store(Request $request){
-        // dd($request->all());
-        $request->validate([
-            'nama' => 'required',
-            'komentar' => 'required'
-        ]);
-
-  try {
-            Comment::create([
-                'nama' => $request->nama,
-                'komentar' => $request->komentar
+        // store
+        public function store(Request $request) {
+            $request->validate([
+                'nama' => 'required',
+                'komentar' => 'required'
             ]);
-        } catch (\Exception $e) {
-            dd($e->getMessage());
-            return redirect()->route('home')->with('error',$e->getMessage());
+        
+            try {
+                $comment = Comment::create([
+                    'nama' => $request->nama,
+                    'komentar' => $request->komentar
+                ]);
+        
+                if ($request->ajax()) {
+                    return response()->json([
+                        'success' => true,
+                        'message' => 'Komentar berhasil ditambahkan',
+                        'comment' => $comment
+                    ]);
+                }
+        
+                return redirect()->route('home')->with("success", "berhasil tambah komentar");
+            } catch (\Exception $e) {
+                return response()->json([
+                    'success' => false,
+                    'message' => $e->getMessage()
+                ], 500);
+            }
         }
-        return response()->json(['success' => 'Komentar berhasil ditambahkan']);
-    }
+        
+
 }
