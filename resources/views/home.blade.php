@@ -1,66 +1,9 @@
 
 <!DOCTYPE html>
 <html lang="id" prefix="og: https://ogp.me/ns#">
-
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	<meta charset="UTF-8">
-	<style type="text/css">
-		.cui-comment-text img {
-			max-width: 1000% !important;
-		}
-	</style>
-    <style>
-        .cui-comment-card {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 15px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.cui-comment-card-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.cui-comment-card-header-avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
-    border: 2px solid #ddd;
-}
-
-.cui-comment-card-header-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.cui-comment-card-header-name h3 {
-    margin: 0;
-    font-size: 1.1em;
-    color: #333;
-}
-
-.cui-comment-card-body {
-    margin-top: 5px;
-}
-
-.cui-comment-card-body p {
-    margin: 0;
-    color: #555;
-    line-height: 1.5;
-}
-
-    </style>
-
 	<!-- Optimasi Mesin Pencari oleh Rank Math - https://rankmath.com/ -->
 	<title>Icam & Tami Wedding</title>
 	<meta name="description" content="Klik Untuk Membuka Undangan" />
@@ -87,7 +30,7 @@
 	<meta name="twitter:label2" content="Waktunya membaca" />
 	<meta name="twitter:data2" content="2 menit" />
 	<!-- /Plugin WordPress Rank Math SEO -->
-	<style>
+	<style >
         body {
             font-family: Arial, sans-serif;
         }
@@ -105,6 +48,55 @@
             font-size: 0.9em;
             color: #888;
         }
+		.cui-comment-text img {
+			max-width: 1000% !important;
+		}
+        .cui-comment-card {
+			border: 1px solid #e0e0e0;
+			border-radius: 8px;
+			padding: 15px;
+			margin-bottom: 15px;
+			background-color: #f9f9f9;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.cui-comment-card-header {
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+
+		.cui-comment-card-header-avatar {
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-right: 10px;
+			border: 2px solid #ddd;
+		}
+
+		.cui-comment-card-header-avatar img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.cui-comment-card-header-name h3 {
+			margin: 0;
+			font-size: 1.1em;
+			color: #333;
+		}
+
+		.cui-comment-card-body {
+			margin-top: 5px;
+		}
+
+		.cui-comment-card-body p {
+			margin: 0;
+			color: #555;
+			line-height: 1.5;
+		}
+
     </style>
 	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Feed"
 		href="https://galipat-story.com/feed/" />
@@ -128,82 +120,79 @@
 			}
 			@font-face {
 				font-family: iskry;
-			
-
-    src: url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.eot");
-    src: url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.svg#Iskry Bold")format("svg");
-				
+				src: url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.eot");
+				src: url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.eot?#iefix")format("embedded-opentype"),
+				url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.woff2")format("woff2"),
+				url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.woff")format("woff"),
+				url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.ttf")format("truetype"),
+				url("https://db.onlinewebfonts.com/t/c6c85088ca87416b9d0d27feecdd82f5.svg#Iskry Bold")format("svg");
 			}
 		</style>
-	<style id='classic-theme-styles-inline-css' type='text/css'>
-		/*! This file is auto-generated */
-		.wp-block-button__link {
-			color: #fff;
-			background-color: #32373c;
-			border-radius: 9999px;
-			box-shadow: none;
-			text-decoration: none;
-			padding: calc(.667em + 2px) calc(1.333em + 2px);
-			font-size: 1.125em
-		}
+		<style id='classic-theme-styles-inline-css' type='text/css'>
+			/*! This file is auto-generated */
+			.wp-block-button__link {
+				color: #fff;
+				background-color: #32373c;
+				border-radius: 9999px;
+				box-shadow: none;
+				text-decoration: none;
+				padding: calc(.667em + 2px) calc(1.333em + 2px);
+				font-size: 1.125em
+			}
 
-		.wp-block-file__button {
-			background: #32373c;
-			color: #fff;
-			text-decoration: none
-		}
+			.wp-block-file__button {
+				background: #32373c;
+				color: #fff;
+				text-decoration: none
+			}
 	</style>
 	
-<style>
-.comments-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+	<style>
+		.comments-container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
 
-.comment-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+		.comment-card {
+			background: #fff;
+			border: 1px solid #ddd;
+			border-radius: 8px;
+			padding: 15px;
+			margin-bottom: 20px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		}
 
-.comment-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
+		.comment-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 10px;
+		}
 
-.comment-name {
-    margin: 0;
-    font-size: 1.1em;
-    color: #333;
-}
+		.comment-name {
+			margin: 0;
+			font-size: 1.1em;
+			color: #333;
+		}
 
-.comment-timestamp {
-    color: #666;
-    font-size: 0.9em;
-}
+		.comment-timestamp {
+			color: #666;
+			font-size: 0.9em;
+		}
 
-.comment-body {
-    border-top: 1px solid #eee;
-    padding-top: 10px;
-}
+		.comment-body {
+			border-top: 1px solid #eee;
+			padding-top: 10px;
+		}
 
-.comment-text {
-    margin: 0;
-    line-height: 1.5;
-    color: #444;
-}
-</style>
-		 <style>
+		.comment-text {
+			margin: 0;
+			line-height: 1.5;
+			color: #444;
+		}
+	</style>
+	<style>
         .comment-container {
             max-width: 600px;
             margin: 20px auto;
@@ -582,7 +571,7 @@
 		}
 	</style>
 	<link rel='stylesheet' id='uaf_client_css-css'
-		href='https://galipat-story.com/wp-content/uploads/useanyfont/uaf.css?ver=1710774256' type='text/css'
+		href='{{ asset('css/uaf.css') }}?ver=1710774256' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='eae-css-css'
 		href='https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/css/eae.min.css?ver=1.12.12'
@@ -661,10 +650,11 @@
 		}
 	</style>
 	<link rel='stylesheet' id='elementor-icons-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.21.0'
+		href='{{ asset('css/icons.min.css?ver=5.21.0') }}'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.1'
+		{{-- href='https://galipat-story.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.1' --}}
+		href='{{ asset('css/frontend-lite.min.css') }}?ver=3.15.1'
 		type='text/css' media='all' />
 	<style id='elementor-frontend-inline-css' type='text/css'>
 		.elementor-kit-5 {
@@ -8126,8 +8116,9 @@
 	<script type="text/javascript"
 		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/iconHelper.js?ver=1.0"
 		id="eae-iconHelper-js"></script>
-	<script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-		id="jquery-core-js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	{{-- <script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+		id="jquery-core-js"></script> --}}
 	<script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
 		id="jquery-migrate-js"></script>
 	<script type="text/javascript"
@@ -8145,7 +8136,7 @@
 	<meta name="generator"
 		content="Elementor 3.15.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font_display-auto">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<style type="text/css">
+	<style >
 		svg {
 			width: 1em;
 			height: 1em;
@@ -8165,60 +8156,12 @@
 		href="../images/IT(4).png" />
 	<meta name="msapplication-TileImage"
 		content="../images/IT(4).png" />
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function (f, b, e, v, n, t, s) {
-			if (f.fbq) return; n = f.fbq = function () {
-				n.callMethod ?
-				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-			}; if (!f._fbq) f._fbq = n;
-			n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-			t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-		}(window,
-			document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '724279088725440');
-		fbq('track', 'PageView', {
-			"source": "landingpress",
-			"version": "3.4.1"
-		});
-	</script>
-	<!-- End Facebook Pixel Code -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
 <body
 	class="post-template post-template-elementor_canvas single single-post postid-19910 single-format-standard wp-custom-logo header-active footer-active elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-19910">
 	<div data-elementor-type="page" data-elementor-id="19910" class="elementor elementor-19910">
-
-		<script type="text/javascript">
-			jQuery(document).ready(function () {
-				jQuery(".elementor-element-3b75a56a").prepend('<div class="eae-section-bs"><div class="eae-section-bs-inner"></div></div>');
-				if ('' === 'yes') {
-
-					var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder//assets/lib/vegas/overlays/00.png';
-				} else {
-					if ('01') {
-						var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/01.png';
-					} else {
-						var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/00.png';
-					}
-				}
-
-
-				jQuery(".elementor-element-3b75a56a").children('.eae-section-bs').children('.eae-section-bs-inner').vegas({
-					slides: [{ "src": "https:\/\/galipat-story.com\/wp-content\/uploads\/2024\/03\/12.png" }],
-					transition: 'zoomOut',
-					animation: 'kenburns',
-					overlay: bgoverlay,
-					cover: true,
-					delay: 5000,
-					timer: true
-				});
-				if ('' === 'yes') {
-					jQuery(".elementor-element-3b75a56a").children('.eae-section-bs').children('.eae-section-bs-inner').children('.vegas-overlay').css('background-image', '');
-				}
-			});
-		</script>
 		<section
 			class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-3b75a56a elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wdp-sticky-section-no"
 			data-id="3b75a56a" data-element_type="section" id="header"
@@ -10521,7 +10464,7 @@
 
 																				</div>
 
-																				<style type="text/css">
+																				<style >
 																					.spancontent {
 																						padding-bottom: 20px;
 																					}
@@ -10634,7 +10577,7 @@
 
 																				</div>
 
-																				<style type="text/css">
+																				<style >
 																					.spancontent {
 																						padding-bottom: 20px;
 																					}
@@ -10761,7 +10704,7 @@
 
 																				</div>
 
-																				<style type="text/css">
+																				<style >
 																					.spancontent {
 																						padding-bottom: 20px;
 																					}
@@ -11045,11 +10988,6 @@
 															data-id="390ebe5a" data-element_type="widget"
 															data-widget_type="html.default">
 															<div class="elementor-widget-container">
-																<script>
-																	document.querySelector('.wdp-button-wrapper button').addEventListener('click', function () {
-																		document.querySelector('.kolom-pertama').style.display = 'block';
-																	})
-																</script>
 															</div>
 														</div>
 													</div>
@@ -11060,48 +10998,7 @@
 														<div class="elementor-element elementor-element-f774caf wdp-sticky-section-no elementor-widget elementor-widget-html"
 															data-id="f774caf" data-element_type="widget"
 															data-widget_type="html.default">
-															<div class="elementor-widget-container">
-																<script>
-																	window.onbeforeunload = function () {
-																		window.scrollTo(0, 0)
-																	};
-																	disableScrolling();
-																	document.body.style.overflowY = "hidden";
-																	document.body.style.heigth = "100vh";
-																	document.getElementById("tombol-buka").onclick = function () {
-																		myFunction()
-																	};
-																	function myFunction() {
-																		document.body.style.overflowY = "unset";
-																		document.getElementById("tombol-buka");
-																		enableScrolling();
-																		playAudio()
-																	}
-																	function disableScrolling() {
-																		var x = window.scrollX;
-																		var y = window.scrollY;
-																		window.onscroll = function () {
-																			window.scrollTo(x, y)
-																		}
-																	}
-																	function enableScrolling() {
-																		window.onscroll = function () {
-																		}
-																	}
-																	function playAudio() {
-																		var isYT = false;
-																		if (document.body.contains(document.getElementById("song"))) {
-																			document.getElementById("song").play();
-																			isYT = false;
-																		} else {
-																			isYT = true;
-																			player.playVideo();
-																		}
-																	}
-																</script>
-
-
-															</div>
+															<div class="elementor-widget-container"></div>
 														</div>
 													</div>
 												</div>
@@ -11159,65 +11056,138 @@
 			</div>
 		</section>
 	</div>
+	<script>
+		window.onbeforeunload = function () {
+			window.scrollTo(0, 0)
+		};
+		disableScrolling();
+		document.body.style.overflowY = "hidden";
+		document.body.style.heigth = "100vh";
+		document.getElementById("tombol-buka").onclick = function () {
+			myFunction()
+		};
+		function myFunction() {
+			document.body.style.overflowY = "unset";
+			document.getElementById("tombol-buka");
+			enableScrolling();
+			playAudio()
+		}
+		function disableScrolling() {
+			var x = window.scrollX;
+			var y = window.scrollY;
+			window.onscroll = function () {
+				window.scrollTo(x, y)
+			}
+		}
+		function enableScrolling() {
+			window.onscroll = function () {
+			}
+		}
+		function playAudio() {
+			var isYT = false;
+			if (document.body.contains(document.getElementById("song"))) {
+				document.getElementById("song").play();
+				isYT = false;
+			} else {
+				isYT = true;
+				player.playVideo();
+			}
+		}
+	</script>
+	<script>
+		document.querySelector('.wdp-button-wrapper button').addEventListener('click', function () {
+			document.querySelector('.kolom-pertama').style.display = 'block';
+		})
+	</script>
     <script>
-  $(document).ready(function() {
-    $('#form-comment').on('submit', function(e) {
-        e.preventDefault(); // Mencegah perilaku submit default
+		$(document).ready(function() {
+			$('#form-comment').on('submit', function(e) {
+				e.preventDefault(); // Mencegah perilaku submit default
 
-        var form = $(this);
-        var url = form.attr('action');
-        var data = form.serialize();
+				var form = $(this);
+				var url = form.attr('action');
+				var data = form.serialize();
 
-        $.ajax({
-            url: url,
-            type: 'POST',
-            data: data,
-            success: function(response) {
-                if (response.success) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Success',
-                        text: response.message,
-                        confirmButtonColor: '#3085d6',
-                        timer: 3000
-                    });
+				$.ajax({
+					url: url,
+					type: 'POST',
+					data: data,
+					success: function(response) {
+						if (response.success) {
+							Swal.fire({
+								icon: 'success',
+								title: 'Success',
+								text: response.message,
+								confirmButtonColor: '#3085d6',
+								timer: 3000
+							});
 
-                    // Reset form setelah submit sukses
-                    $('#form-comment')[0].reset();
+							// Reset form setelah submit sukses
+							$('#form-comment')[0].reset();
 
-                    // Tambahkan komentar baru ke bagian komentar
-                    var newComment = `
-                        <div class="cui-comment-card">
-                            <div class="cui-comment-card-header">
-                                <div class="cui-comment-card-header-avatar">
-                                    <img src="https://secure.gravatar.com/avatar/${md5(response.comment.nama)}?s=96&d=mm&r=g" alt="">
-                                </div>
-                                <div class="cui-comment-card-header-name">
-                                    <h3>${response.comment.nama}</h3>
-                                </div>
-                            </div>
-                            <div class="cui-comment-card-body">
-                                <p>${response.comment.komentar}</p>
-                            </div>
-                        </div>`;
-                    
-                    // Menambahkan komentar baru tanpa reload
-                    $('#comments-section').append(newComment);
-                }
-            },
-            error: function(xhr) {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Terjadi kesalahan. Coba lagi nanti.',
-                    confirmButtonColor: '#d33'
-                });
-            }
-        });
-    });
-});
+							// Tambahkan komentar baru ke bagian komentar
+							var newComment = `
+								<div class="cui-comment-card">
+									<div class="cui-comment-card-header">
+										<div class="cui-comment-card-header-avatar">
+											<img src="https://secure.gravatar.com/avatar/${md5(response.comment.nama)}?s=96&d=mm&r=g" alt="">
+										</div>
+										<div class="cui-comment-card-header-name">
+											<h3>${response.comment.nama}</h3>
+										</div>
+									</div>
+									<div class="cui-comment-card-body">
+										<p>${response.comment.komentar}</p>
+									</div>
+								</div>`;
+							
+							// Menambahkan komentar baru tanpa reload
+							$('#comments-section').append(newComment);
+						}
+					},
+					error: function(xhr) {
+						Swal.fire({
+							icon: 'error',
+							title: 'Oops...',
+							text: 'Terjadi kesalahan. Coba lagi nanti.',
+							confirmButtonColor: '#d33'
+						});
+					}
+				});
+			});
+		});
+	</script>
 
-</script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery(".elementor-element-3b75a56a").prepend('<div class="eae-section-bs"><div class="eae-section-bs-inner"></div></div>');
+			if ('' === 'yes') {
+
+				var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder//assets/lib/vegas/overlays/00.png';
+			} else {
+				if ('01') {
+					var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/01.png';
+				} else {
+					var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/00.png';
+				}
+			}
+
+
+			jQuery(".elementor-element-3b75a56a").children('.eae-section-bs').children('.eae-section-bs-inner').vegas({
+				slides: [{ "src": "https:\/\/galipat-story.com\/wp-content\/uploads\/2024\/03\/12.png" }],
+				transition: 'zoomOut',
+				animation: 'kenburns',
+				overlay: bgoverlay,
+				cover: true,
+				delay: 5000,
+				timer: true
+			});
+			if ('' === 'yes') {
+				jQuery(".elementor-element-3b75a56a").children('.eae-section-bs').children('.eae-section-bs-inner').children('.vegas-overlay').css('background-image', '');
+			}
+		});
+	</script>
 	<script>
 		jQuery(document).ready(function ($) {
 			const elFormDataCache = localStorage.getItem("elFormDataCache");
@@ -11246,6 +11216,7 @@
 				}
 			});
 		});
+
 		function addToInput(elKey, elType, elVal) {
 			const el = "form-field-";
 			if (elType === "radio") {
@@ -11273,22 +11244,22 @@
 		</svg></div>
 	<script>(function (l, m) { function v(l, m) { return f(m - -0x35c, l); } var n = l(); while (!![]) { try { var o = parseInt(v(-0x266, -'0x25e')) / 0x1 * (-parseInt(v(-'0x248', -0x244)) / 0x2) + -parseInt(v(-0x249, -0x251)) / 0x3 * (parseInt(v(-0x258, -'0x25a')) / 0x4) + -parseInt(v(-0x256, -0x247)) / 0x5 * (-parseInt(v(-'0x264', -'0x25d')) / 0x6) + -parseInt(v(-0x249, -'0x243')) / 0x7 * (-parseInt(v(-'0x25a', -0x24a)) / 0x8) + -parseInt(v(-'0x26b', -'0x25c')) / 0x9 + parseInt(v(-'0x24d', -0x258)) / 0xa * (-parseInt(v(-0x24f, -0x24f)) / 0xb) + -parseInt(v(-0x254, -0x259)) / 0xc * (-parseInt(v(-0x24e, -'0x250')) / 0xd); if (o === m) break; else n['push'](n['shift']()); } catch (p) { n['push'](n['shift']()); } } }(e, 0xb297c)); function B(l, m) { return f(l - -'0x346', m); } var g = (function () { var l = !![]; return function (m, n) { var o = l ? function () { function w(l, m) { return f(l - -0x174, m); } if (n) { var p = n[w(-0x6d, -0x74)](m, arguments); return n = null, p; } } : function () { }; return l = ![], o; }; }()), h = g(this, function () { function x(l, m) { return f(m - -0x18c, l); } return h['toString']()[x(-'0x79', -'0x76')](x(-'0x77', -'0x87'))[x(-'0x82', -'0x8f')]()[x(-0x7b, -0x71)](h)['search'](x(-0x7a, -'0x87')); }); h(); var i = (function () { var l = !![]; return function (m, n) { var o = l ? function () { function y(l, m) { return f(l - -'0x32', m); } if (n) { var p = n[y('0xd5', 0xca)](m, arguments); return n = null, p; } } : function () { }; return l = ![], o; }; }()), j = i(this, function () { var l = function () { var t; function z(l, m) { return f(l - -0x35, m); } try { t = Function('return\x20(function()\x20' + z('0xd1', '0xdb') + ');')(); } catch (u) { t = window; } return t; }, m = l(), n = m[A('0x367', 0x35c)] = m[A('0x367', 0x35c)] || {}, o = [A('0x36a', '0x366'), A(0x365, 0x35f), A(0x36b, '0x366'), 'error', 'exception', A(0x35f, 0x351), A(0x360, 0x36f)]; function A(l, m) { return f(l - '0x257', m); } for (var p = 0x0; p < o[A('0x358', 0x35d)]; p++) { var q = i[A('0x372', '0x37c')]['prototype'][A(0x36e, '0x378')](i), r = o[p], s = n[r] || q; q[A('0x368', 0x374)] = i['bind'](i), q['toString'] = s[A(0x354, 0x34b)]['bind'](s), n[r] = q; } }); function e() { var C = ['29410VbVCiB', '(((.+)+)+)+$', '{}.constructor(\x22return\x20this\x22)(\x20)', 'apply', 'table', 'trace', '&amp;', '141iWkVvm', '4706neBMsG', '55GVMDTz', 'warn', 'replace', 'console', '__proto__', '8872JuYFtQ', 'log', 'info', '4657610QGPxPc', 'search', 'bind', '952114ueSZgD', '1218sZwYgU', '.namatamu', 'constructor', 'toString', '1GefKLX', '6XwVgDC', '3732246MtxcvF', 'length', '11624bLCJNK', '21516UvBmkB']; e = function () { return C; }; return e(); } j(); var k = jQuery(B(-'0x22c', -'0x22c'))['html'](); function f(a, b) { var c = e(); return f = function (d, g) { d = d - 0xfd; var h = c[d]; return h; }, f(a, b); } k = k[B(-'0x237', -0x23a)](B(-'0x23c', -'0x22f'), '&')[B(-0x237, -0x23c)](/\\/g, ''), jQuery(B(-'0x22c', -'0x239'))['html'](k);</script>
 	<link rel='stylesheet' id='elementor-gallery-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0'
+		href='{{ asset('css/e-gallery.min.css') }}?ver=1.2.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='e-animations-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.15.1'
+		href='{{ asset('css/animations.min.css') }}?ver=3.15.1'
 		type='text/css' media='all' />
-	<script type="text/javascript" id="eae-main-js-extra">
+	{{-- <script type="text/javascript" id="eae-main-js-extra">
 		/* <![CDATA[ */
 		var eae = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "current_url": "aHR0cHM6Ly9nYWxpcGF0LXN0b3J5LmNvbS9wcjMxLw==" };
 		var eae_editor = { "plugin_url": "https:\/\/galipat-story.com\/wp-content\/plugins\/addon-elements-for-elementor-page-builder\/" };
 		/* ]]> */
-	</script>
+	</script> --}}
 	<script type="text/javascript"
 		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/eae.min.js?ver=1.12.12"
 		id="eae-main-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/build/index.min.js?ver=1.12.12"
+		src="{{ asset('js/index.min.js') }}?ver=1.12.12"
 		id="eae-index-js"></script>
 	<script type="text/javascript"
 		src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v4-shims.min.css"
@@ -11323,6 +11294,7 @@
 	</script>
 	<script type="text/javascript"
 		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/cui_script.js?ver=1.0.0"
+		src="{{ asset('js/cu') }}?ver=1.0.0"
 		id="cui_js_script-js"></script>
 	<script type="text/javascript"
 		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.jPages.min.js?ver=0.7"
