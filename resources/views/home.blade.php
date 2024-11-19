@@ -15,8 +15,8 @@
 	<meta property="og:site_name" content="Mawedding" />
 	<meta property="article:section" content="Uncategorized" />
 	<meta property="og:updated_time" content="2024-03-18T21:42:26+07:00" />
-	<meta property="og:image" content="images/DSCF6531.webp" />
-	<meta property="og:image:secure_url" content="images/DSCF6531.webp" />
+	<meta property="og:image" content="{{ asset('images/img_300px.webp') }}" />
+	<meta property="og:image:secure_url" content="{{ asset('images/img_300px.webp') }}" />
 	<meta property="og:image:width" content="640" />
 	<meta property="og:image:height" content="960" />
 	<meta property="og:image:alt" content="Icam & Tami Wedding" />
@@ -24,7 +24,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Icam & Tami Wedding" />
 	<meta name="twitter:description" content="Klik Untuk Membuka Undangan" />
-	<meta name="twitter:image" content="images/DSCF6531.webp" />
+	<meta name="twitter:image" content="{{ asset('images/img_300px.webp') }}" />
 	<meta name="twitter:label1" content="Ditulis oleh" />
 	<meta name="twitter:data1" content="Ikhwan" />
 	<meta name="twitter:label2" content="Waktunya membaca" />
@@ -8147,15 +8147,15 @@
 		}
 	</style>
 	<link rel="icon"
-		href="../images/IT(4).png"
+		href="{{ asset('images/IT(4).png') }}"
 		sizes="32x32" />
 	<link rel="icon"
-		href="../images/IT(4).png"
+		href="{{ asset('images/IT(4).png') }}"
 		sizes="192x192" />
 	<link rel="apple-touch-icon"
-		href="../images/IT(4).png" />
+		href="{{ asset('images/IT(4).png') }}" />
 	<meta name="msapplication-TileImage"
-		content="../images/IT(4).png" />
+		content="{{ asset('images/IT(4).png') }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
@@ -8175,7 +8175,6 @@
 							data-id="6aea9623" data-element_type="widget" data-widget_type="spacer.default">
 							<div class="elementor-widget-container">
 								<style>
-									/*! elementor - v3.15.0 - 02-08-2023 */
 									.elementor-column .elementor-spacer-inner {
 										height: var(--spacer-size)
 									}
@@ -8592,7 +8591,7 @@
 														display: inline-block
 													}
 												</style> <img fetchpriority="high" decoding="async" width="640"
-													height="960" src="images/DSCF6531.webp"
+													height="960" src="{{ asset('images/9lyRfYWibpMvyPO04M3uVfKt9WrPHqpyg9rDJQlS.webp') }}"
 													class="attachment-full size-full wp-image-19906" alt="" />
 											</div>
 										</div>
@@ -8806,7 +8805,7 @@
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<img loading="lazy" decoding="async" width="640" height="960"
-													src="{{asset('images/IMG_20241103_203519_453.jpg')}}"
+													src="{{asset('images/VYQCQRoK1pNWbTcLn7jT41K3Wxk6JzEsHy31Gle1.webp')}}"
 													class="attachment-full size-full wp-image-19782" alt="" />
 											</div>
 										</div>
@@ -9017,7 +9016,7 @@
 											data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}"
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
-												<img decoding="async" width="640" height="960" src="{{asset('images/IMG_20241103_203519_525.jpg')}}"
+												<img decoding="async" width="640" height="960" src="{{asset('images/VoQ2lQxMiIOqZyLlUsEaEc6jVtOC0M9K28vqOyVt.webp')}}"
 													class="attachment-full size-full wp-image-19888" alt="" />
 											</div>
 										</div>
@@ -9874,90 +9873,90 @@
 												</style>
 												<div class="elementor-gallery__container">
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6531.webp"
+														href="{{ asset('images/DSCF6531.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6531"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3ODksInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1NC0yLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6531.webp"
+															data-thumbnail="{{ asset('images/9lyRfYWibpMvyPO04M3uVfKt9WrPHqpyg9rDJQlS.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6521.webp"
+														href="{{ asset('images/DSCF6521.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6521"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTAsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDIyNC0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6521.webp"
+															data-thumbnail="{{ asset('images/j8zUyxLbrJso5jwhrmKNPfb9MoJFrYQnGP4ebtfh.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6540.webp"
+														href="{{ asset('images/DSCF6540.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6540"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTEsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDE2OS0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6540.webp"
+															data-thumbnail="{{ asset('images/CxlRyL8FUrINiZuYQquu2lS8PUHGBIde7qJHKWvs.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6528.webp"
+														href="{{ asset('images/DSCF6528.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6528"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTIsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Ny0xLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6528.webp"
+															data-thumbnail="{{ asset('images/zyR5Oh9XbxIJZtiAb4SKb5XiQ8uk8Bb0gZvPQ013.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6599-Copy.jpg"
+														href="{{ asset('images/DSCF6599.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="DSCF6599-Copy"
+														data-elementor-lightbox-title="DSCF6599"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3NzcsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI3MC0yLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6599-Copy.jpg"
+															data-thumbnail="{{ asset('images/GbvUsYSwjDwQsujqsbSYNgo1B4aEERFnmTd1fZZa.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6568.webp"
+														href="{{ asset('images/DSCF6568.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6568"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTMsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1Mi0zLmpwZyIsInNsaWRlc2hvdyI6ImFsbC02NTgwZGM4ZiJ9">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6568.webp"
+															data-thumbnail="{{ asset('images/DXAib6ztXh5UVQystW4rM2ktQJwCzdrMn8mAYIfz.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6588-bw.webp"
+														href="{{ asset('images/DSCF6588-bw.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
-														data-elementor-lightbox-title="DSCF6588-bw"
+														data-elementor-lightbox-title="DSCF6588"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTQsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI4NC0xLTEuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6588-bw.webp"
+															data-thumbnail="{{ asset('images/ztCOOhqeIHOcj4NwGCmeh7q5dJMVEYaC6jqZiZ1p.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
 													<a class="e-gallery-item elementor-gallery-item elementor-animated-content"
-														href="images/DSCF6583.webp"
+														href="{{ asset('images/DSCF6583.webp') }}"
 														data-elementor-open-lightbox="yes"
 														data-elementor-lightbox-slideshow="all-6580dc8f"
 														data-elementor-lightbox-title="DSCF6583"
 														data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk3OTUsInVybCI6Imh0dHBzOlwvXC9nYWxpcGF0LXN0b3J5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL3BleGVscy1iYS10aWstMzc1NDI1NC0xLTIuanBnIiwic2xpZGVzaG93IjoiYWxsLTY1ODBkYzhmIn0%3D">
 														<div class="e-gallery-image elementor-gallery-item__image"
-															data-thumbnail="images/DSCF6583.webp"
+															data-thumbnail="{{ asset('images/6CKZEiQG0mWSZ4e02jYPLqyYhJDFvYLkiGg0xTYK.webp') }}"
 															data-width="640" data-height="960" alt=""></div>
 														<div class="elementor-gallery-item__overlay"></div>
 													</a>
