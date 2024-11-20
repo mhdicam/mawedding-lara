@@ -11,7 +11,8 @@ class TamuController extends Controller
     public function index(){
         $undangan = Undangan::all();
         $count = Undangan::count();
-        return view('tamu.index',compact('undangan','count'));
+        
+        return view('tamu.index', compact('undangan','count'));
     }
 
     public function create(){
@@ -19,7 +20,6 @@ class TamuController extends Controller
     }
 
     public function store(Request $request){
-        // dd($request->all());
         Undangan::create([
             'nama_tamu' => $request->nama,
             'kode' => $request->kode_undangan
@@ -29,9 +29,10 @@ class TamuController extends Controller
 
     public function show($kode){
         $undangan = Undangan::where('kode',$kode)->first();
-        $comment = Comment::all();
-        $countcomment = Comment::count();
-        return view('tamu.show',compact('undangan','comment','countcomment'));
+        $comment = Comment::orderBy('id')->limit(30)->get();
+        $commentCount = Comment::count();
+
+        return view('home',compact('undangan', 'comment', 'commentCount'));
     }
 
     public function destroy($id)

@@ -8,8 +8,9 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function home(){
-        $comment = Comment::all();
-        $countcomment = Comment::count();
-        return view('home',compact('comment','countcomment'));
+        $comment = Comment::orderBy('id')->limit(30)->get();
+        $commentCount = Comment::count();
+
+        return view('home',compact('comment', 'commentCount'));
     }
 }

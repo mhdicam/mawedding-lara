@@ -6,8 +6,16 @@ use App\Http\Controllers\TamuController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class,'home'])->name('home');
-// comment store
-Route::post('/comment/store',[CommentController::class,'store'])->name('comment.store');
+
+/** ROUTE FOR COMMENT */
+
+Route::middleware(['throttle:post_comment'])->group(function () {
+    Route::post('/comment/post',[CommentController::class, 'store'])->name('comment.store');
+});
+
+Route::post('/comment',[CommentController::class, 'list'])->name('comment.list');
+
+/** END ROUTE FOR COMMENT */
 
 // tamu
 Route::get('/tamu/2024',[TamuController::class,'index'])->name('tamu.index');

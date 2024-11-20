@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     reply: CUI_WP.reply,
     checkVideo: CUI_WP.checkVideo,
     textWriteComment: CUI_WP.textWriteComment,
-    classPopularComment: CUI_WP.classPopularComment,
+    classPopularComment: CUI_WP.classPopularComment
   };
 
   //Remove duplicate comment box
@@ -188,7 +188,8 @@ jQuery(document).ready(function ($) {
     var post_id = formID.replace('commentform-', '');
     var form = $('#commentform-' + post_id);
     var link_show_comments = $('#cui-link-' + post_id);
-    var num_comments = link_show_comments.attr('href').split('=')[2];
+    // var num_comments = link_show_comments.attr('href').split('=')[2];
+    var num_comments = $(`#cui-container-comment-${post_id} li`).length
     var form_ok = true;
 
     // VALIDAR COMENTARIO
@@ -282,21 +283,23 @@ jQuery(document).ready(function ($) {
     if (num_comments > 0) {
       jQuery.ajax({
         type: "POST",
-        dataType: "html",// tipo de información que se espera de respuesta
+        dataType: "json",// tipo de información que se espera de respuesta
         url: CUI.ajaxurl,
         data: {
           action: 'get_comments',
           post_id: post_id,
           get: num_get_comments,
           order: order_comments,
-          nonce: CUI.nonce
+          nonce: CUI.nonce,
+          _token: $('meta[name="_token"]').attr('content')
         },
         beforeSend: function () {
           status.addClass('cui-loading').html('<span class="cuio-loading"></span>').show();
         },
         success: function (data) {
+          $('meta[name=_token]').attr('content', data._token)
           status.removeClass('cui-loading').html('').hide();
-          $container_comments.html(data);
+          $container_comments.html(data.data);
           highlightPopularComments_CUI(post_id, $container_comments);
           $container_comments.show();//Mostramos los Comentarios
           //Insertamos Paginación de Comentarios
@@ -345,18 +348,24 @@ jQuery(document).ready(function ($) {
     var link_show_comments = $('#cui-link-' + post_id);
     var comment_form = $('#commentform-' + post_id);
     var status = $('#cui-comment-status-' + post_id);
-    var form_data = comment_form.serialize();//obtenemos los datos
+    // var form_data = comment_form.serialize();
+    var form_data = new FormData(comment_form[0]);
+    
+    form_data.append('_token', $('meta[name="_token"]').attr('content'))
 
     $.ajax({
       type: 'post',
       method: 'post',
       url: comment_form.attr('action'),
       data: form_data,
-      dataType: "html",
+      dataType: "json",
+      processData: false,
+      contentType: false,
       beforeSend: function () {
         status.addClass('cui-loading').html('<span class="cuio-loading"></span>').show();
       },
       success: function (data, textStatus) {
+        $('meta[name=_token]').attr('content', data._token)
         cc('success data', data)
         status.removeClass('cui-loading').html('');
         if (data != "error") {
@@ -370,7 +379,7 @@ jQuery(document).ready(function ($) {
           status.html('<p class="cui-ajax-error">Error processing your form</p>');
         }
         //Agregamos el nuevo comentario a la lista
-        $('ul#cui-container-comment-' + post_id).prepend(data).show();
+        $('ul#cui-container-comment-' + post_id).prepend(data.data).show();
         //Actualizamos el Paginador
         jPages_CUI(post_id, CUI.numPerPage, true);
       },

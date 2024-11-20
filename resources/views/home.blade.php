@@ -29,7 +29,7 @@
 	<meta name="twitter:data1" content="Ikhwan" />
 	<meta name="twitter:label2" content="Waktunya membaca" />
 	<meta name="twitter:data2" content="2 menit" />
-	<!-- /Plugin WordPress Rank Math SEO -->
+	<meta name="_token" content="{{ csrf_token() }}" />
 	<style >
         body {
             font-family: Arial, sans-serif;
@@ -129,7 +129,6 @@
 			}
 		</style>
 		<style id='classic-theme-styles-inline-css' type='text/css'>
-			/*! This file is auto-generated */
 			.wp-block-button__link {
 				color: #fff;
 				background-color: #32373c;
@@ -3266,7 +3265,7 @@
 		.elementor-19910 .elementor-element.elementor-element-7de83c07:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-7de83c07>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #272727;
-			background-image: url("images/DSCF6531.webp");
+			background-image: url("{{ asset('images/DSCF6531.webp') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -5125,7 +5124,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-2eae2be5>.elementor-widget-container {
-			margin: 0em 0em 0em -10em;
+			margin: 0em 0em 0em -8em;
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-e2c5dc5 {
@@ -5217,7 +5216,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-3461ab16>.elementor-widget-container {
-			margin: 0em 0em 0em -10em;
+			margin: 0em 0em 0em -8em;
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-6b33463 {
@@ -7054,9 +7053,33 @@
 			border-top: 0px solid #53BF9D;
 		}
 
+		/*Kolom Nama*/
+		.cui-wrapper.cui-facebook .cui-border .cui-wrap-form .cui-container-form input[type="text"] {
+			border: 2px solid #5E443;
+			background: #FFFFFF;
+			font-family: arsenal;
+			font-style: italic;
+			color: #000;
+		}
 
-		
+		/*Kolom Pesan*/
+		.cui-wrapper.cui-facebook .cui-wrap-form .cui-container-form textarea.cui-textarea {
+			border: 2px solid #5E443;
+			background: #FFFFFF;
+			color: #5E443D;
+			font-family: arsenal;
+			font-style: italic;
+		}
 
+		/*Tombol Kirim*/
+		.cui-wrapper.cui-facebook .cui-wrap-form .cui-container-form input[type="submit"], .cui-wrapper.cui-facebook .cui-wrap-form .cui-container-form input[type="button"].cui-form-btn {
+			font-size: 10px;
+			border-radius: 10px 10px 10px 10px;
+			padding: 1px 18px 1px 18px;
+			color: #5E443;
+			background: #2B2A28;
+			font-family: Crimson Pro;
+		}
 
 		/*Tombol Kirim - HOVER*/
 		.cui-wrapper.cui-facebook .cui-wrap-form .cui-container-form input[type="submit"]:hover,
@@ -8076,54 +8099,52 @@
 		}
 	</style>
 	<link rel='stylesheet' id='swiper-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
+		href='{{ asset('css/swiper.min.css') }}?ver=5.3.6'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-pro-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.11.4'
+		href='{{ asset('css/frontend-lite.min.css') }}?ver=3.11.4'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='weddingpress-wdp-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/wdp.css?ver=3.0.11' type='text/css'
+		href='{{ asset('css/wdp.css') }}?ver=3.0.11' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='kirim-kit-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/guest-book.css?ver=3.0.11'
+		href='{{ asset('css/guest-book.css') }}?ver=3.0.11'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='landingpress-css'
-		href='https://galipat-story.com/wp-content/themes/landingpress-wp/style.css?ver=3.4.1' type='text/css'
+		href='{{ asset('css/landing-style.css') }}?ver=3.4.1' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='happy-icons-css'
-		href='https://galipat-story.com/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.8.5'
+		href='{{ asset('css/happy-icon-style.min.css') }}?ver=3.8.5'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='font-awesome-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0'
+		href='{{ asset('css/font-awesome.min.css') }}?ver=4.7.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='google-fonts-1-css'
 		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJost%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CHalant%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBarlow%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CCrimson+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.6.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-icons-shared-0-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
+		href='{{ asset('css/fontawesome.min.css') }}?ver=5.15.3'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-solid-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
+		href='{{ asset('css/solid.min.css') }}?ver=5.15.3'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-brands-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+		href='{{ asset('css/brands.min.css') }}?ver=5.15.3'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-regular-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3'
+		href='{{ asset('css/regular.min.css') }}?ver=5.15.3'
 		type='text/css' media='all' />
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/iconHelper.js?ver=1.0"
+		src="{{ asset('js/iconHelper.js') }}?ver=1.0"
 		id="eae-iconHelper-js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	{{-- <script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-		id="jquery-core-js"></script> --}}
-	<script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+	<script type="text/javascript" src="{{ asset('js/jquery-migrate.min.js') }}?ver=3.4.1"
 		id="jquery-migrate-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/extensions-for-elementor-form/assets/frontend-scripts.js?ver=2.0.2"
+		src="{{ asset('js/frontend-scripts.js') }}?ver=2.0.2"
 		id="eef-frontend-script-js"></script>
-	<link rel='shortlink' href='https://galipat-story.com/?p=19910' />
+	<link rel='shortlink' href='{{ url('') }}' />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<style>
 		.cui_note_button {
@@ -8293,7 +8314,7 @@
 							data-settings="{&quot;_animation_delay&quot;:100,&quot;_animation&quot;:&quot;fadeInDown&quot;}"
 							data-widget_type="heading.default">
 							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default">Nama Tamu</h2>
+								<h2 class="elementor-heading-title elementor-size-default">{{ $undangan->nama_tamu ?? 'Nama Tamu' }}</h2>
 							</div>
 						</div>
 						<div class="elementor-element elementor-element-6ac2329a animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
@@ -8492,9 +8513,7 @@
 															data-id="3b7d895c" data-element_type="widget"
 															data-widget_type="heading.default">
 															<div class="elementor-widget-container">
-																<p
-																	class="elementor-heading-title elementor-size-default">
-																	Nama Tamu</p>
+																<p class="elementor-heading-title elementor-size-default">{{ $undangan->nama_tamu ?? 'Nama Tamu' }}</p>
 															</div>
 														</div>
 													</div>
@@ -8527,7 +8546,7 @@
 
 
 								jQuery(".elementor-element-57952b39").children('.eae-section-bs').children('.eae-section-bs-inner').vegas({
-									slides: [{ "src": "https:\/\/galipat-story.com\/wp-content\/uploads\/2024\/03\/12.png" }],
+									slides: [{ "src": "{{ asset('images/12.png') }}" }],
 									transition: 'zoomOut',
 									animation: 'kenburns',
 									overlay: bgoverlay,
@@ -8646,7 +8665,7 @@
 															data-widget_type="image.default">
 															<div class="elementor-widget-container">
 																<img decoding="async" width="480" height="384"
-																	src="images/giphy-1-1-2.gif"
+																	src="{{ asset('images/giphy-1-1-2.gif') }}"
 																	class="attachment-large size-large wp-image-19775"
 																	alt="" />
 															</div>
@@ -9111,7 +9130,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{ asset('images/rrytyu-e1698384778295.png') }}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -9253,7 +9272,7 @@
 				</div>
 				<div class="elementor-element elementor-element-148761b5 elementor-absolute wdp-sticky-section-no elementor-widget elementor-widget-image" data-id="148761b5" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="480" height="384" src="images/giphy-1-1-2.gif" class="attachment-large size-large wp-image-19775" alt="" />															</div>
+															<img decoding="async" width="480" height="384" src="{{ asset('images/giphy-1-1-2.gif') }}" class="attachment-large size-large wp-image-19775" alt="" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-6715e957 wdp-sticky-section-no elementor-widget elementor-widget-heading" data-id="6715e957" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -9343,7 +9362,7 @@
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<img decoding="async" width="480" height="384"
-													src="images/giphy-1-1-2.gif"
+													src="{{ asset('images/giphy-1-1-2.gif') }}"
 													class="attachment-large size-large wp-image-19775" alt="" />
 											</div>
 										</div>
@@ -9828,7 +9847,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{ asset('images/rrytyu-e1698384778295.png') }}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -10022,7 +10041,7 @@
 															<div class="elementor-widget-container">
 																<img loading="lazy" decoding="async" width="959"
 																	height="390"
-																	src="images/rrytyu-e1698384778295.png"
+																	src="{{ asset('images/rrytyu-e1698384778295.png') }}"
 																	class="attachment-full size-full wp-image-19908"
 																	alt="" />
 															</div>
@@ -10044,18 +10063,15 @@
 																<div class='cui-wrapper cui-facebook cui-border'
 																	style='overflow: hidden;'>
 																	<div class='cui-wrap-link'>
-																		<div class='header-cui'><a id='cui-link-19910'
-																				class='cui-link cui-icon-link cui-icon-link-true auto-load-true'
-																				{{-- href='https://galipat-story.com/pr31/?post_id=19910&amp;comments=0&amp;get=30&amp;order=DESC' --}}
-																				title='0 Comments'><span>{{$countcomment}}</span>
-																				Comments</a></div>
-																	</div><!--.cui-wrap-link-->
+																		<div class='header-cui'>
+																			<a id='cui-link-19910' class='cui-link cui-icon-link cui-icon-link-true auto-load-true'
+																				href='?post_id=19910&comments={{ $commentCount }}&get=30&order=DESC'
+																				title='{{ $commentCount }} Comments'><span class="comment-count">{{ $commentCount }}</span> Comments</a></div>
+																			</div>
                                                                  
 
-																	<div id='cui-wrap-commnent-19910'
-																		class='cui-wrap-comments' style='display:none;'>
-																		<div id='cui-wrap-form-19910'
-																			class='cui-clearfix'>
+																	{{-- <div id='cui-wrap-commnent-19910' class='cui-wrap-comments' style='display:unset !important;'>
+																		<div id='cui-wrap-form-19910' class='cui-clearfix'>
 																			<div class="cui-comment-attendence">
 																				<div id="invitation-count-19910"
 																					class="cui_comment_count_card_wrap">
@@ -10072,44 +10088,111 @@
 																					</div>
 																				</div>
 																			</div>
-																			<form id="form-comment" style="padding-top: 50px; padding-left:1rem; padding-right:1rem;" action="{{ route('comment.store') }}" method="POST">
-    @csrf
-    <input type="text" id="name" placeholder="Nama" name="nama" required style="width:100%; margin-bottom: 10px;">
-    <textarea id="comment" name="komentar" placeholder="Komentar" required></textarea>
-    <button type="submit">Kirim Komentar</button>
-</form>
+																			<form id="commentform-19910" style="padding-top: 50px; padding-left:1rem; padding-right:1rem;" action="{{ route('comment.store') }}" method="POST">
+																				@csrf
+																				<p class="comment-form-author cui-field-1">
+																					<input id="author" name="author" type="text" aria-required="true" class="cui-input" placeholder="Nama">
+																					<span class="cui-required"></span>
+																					<span class="cui-error-info cui-error-info-name" style="display: none;">Mohon maaf! Khusus untuk tamu undangan</span>
+																				</p>
+																				<div class="cui-wrap-textarea">
+																					<textarea id="cui-textarea-19910" class="waci_comment cui-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Berikan Ucapan Dan Doa" rows="2" style="overflow: hidden visible; overflow-wrap: break-word; resize: none;"></textarea>
+																					<span class="cui-required"></span>
+																					<span class="cui-error-info cui-error-info-text" style="display: none;">2 characters minimum.</span></div>
+																				<button type="submit">Kirim Komentar</button>
+																			</form>
 
-<!-- Bagian untuk Menampilkan Komentar -->
-<section id="comments-section" style="margin-top: 2rem; padding-left:1rem; padding-right:1rem;">
-    @foreach ($comment as $c)
-        <div class="cui-comment-card">
-            <div class="cui-comment-card-header">
-                <div class="cui-comment-card-header-avatar">
-                    <img src="https://secure.gravatar.com/avatar/{{ md5($c->nama) }}?s=96&d=mm&r=g" alt="">
-                </div>
-                <div class="cui-comment-card-header-name">
-                    <h3>{{ $c->nama }}</h3>
-                </div>
-            </div>
-            <div class="cui-comment-card-body">
-                <p>{{ $c->komentar }}</p>
-            </div>
-        </div>
-    @endforeach
-</section>
+																			<!-- Bagian untuk Menampilkan Komentar -->
+																			<section id="comments-section" style="margin-top: 2rem; padding-left:1rem; padding-right:1rem;">
+																				@foreach ($comment as $c)
+																					<div class="cui-comment-card">
+																						<div class="cui-comment-card-header">
+																							<div class="cui-comment-card-header-avatar">
+																								<img src="https://secure.gravatar.com/avatar/{{ md5($c->nama) }}?s=96&d=mm&r=g" alt="">
+																							</div>
+																							<div class="cui-comment-card-header-name">
+																								<h3>{{ $c->nama }}</h3>
+																							</div>
+																						</div>
+																						<div class="cui-comment-card-body">
+																							<p>{{ $c->komentar }}</p>
+																						</div>
+																					</div>
+																				@endforeach
+																			</section>
 
 																		</div><!--.cui-wrap-form-->
-																		<div id='cui-comment-status-19910'
-																			class='cui-comment-status'></div>
+																		<div id='cui-comment-status-19910' class='cui-comment-status cui-loading'>
+																			<p class="cui-ajax-success">Thanks for your comment!</p>
+																			<span class="cuio-loading"></span>
+																		</div>
 																		<div id='cui-box' class='cui-box'>
 																			<ul id='cui-container-comment-19910'
 																				class='cui-container-comments cui-order-DESC '
 																				data-order='DESC'></ul>
 																		</div>
 																		<div class='cui-holder-19910 cui-holder'></div>
-																	</div><!--.cui-wrap-comments-->
-																</div><!--.cui-wrapper-->
+																	</div> --}}
+																	<!--.cui-wrap-comments-->
+
+																	<div id="cui-wrap-commnent-19910" class="cui-wrap-comments">
+																		<div id="cui-wrap-form-19910" class="cui-clearfix">
+																			<div class="cui-comment-attendence">
+																				<div id="invitation-count-19910" class="cui_comment_count_card_wrap">
+																					<div class="cui_comment_count_card_row_2">
+																						<div class="cui_comment_count_card cui_card-hadir">
+																							<span>0</span>
+																							<span>Hadir</span>
+																						</div>
+																						<div class="cui_comment_count_card cui_card-tidak_hadir">
+																							<span>0</span>
+																							<span>Tidak hadir</span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="cui-clearfix cui-wrap-form ">
+																				<div id="cui-container-form-19910" class="cui-container-form cui-no-login">
+																					<div id="respond-19910" class="respond cui-clearfix">
+																						<form action="{{ route('comment.store') }}" method="post" id="commentform-19910">
+																							<p class="comment-form-author cui-field-1">
+																								<input id="author" name="author" type="text" aria-required="true" class="cui-input" placeholder="Nama">
+																								<span class="cui-required">*</span>
+																								<span class="cui-error-info cui-error-info-name" style="display: none;">Mohon maaf! Khusus untuk tamu undangan</span>
+																							</p>
+																							<div class="cui-wrap-textarea">
+																								<textarea id="cui-textarea-19910" class="waci_comment cui-textarea autosize-textarea" name="comment" aria-required="true" placeholder="Berikan Ucapan Dan Doa" rows="2" style="overflow: hidden visible; overflow-wrap: break-word; resize: none;"></textarea>
+																								<span class="cui-required">*</span>
+																								<span class="cui-error-info cui-error-info-text" style="display: none;">2 characters minimum.</span>
+																							</div>
+																		<div class="nm-wrap-comments">     
+																			<div class="row"></div>
+																		</div>
+																		<div class="cui-clearfix cui-wrap-select cui-field-wrap cui-select-attending">
+																			<select class="waci_comment cui-select" name="konfirmasi" id="konfirmasi">
+																				<option value="" disabled="" selected="">Konfirmasi Kehadiran</option>
+																				<option value="Hadir">Hadir</option>
+																				<option value="Tidak hadir">Tidak hadir</option>
+																			</select>
+																			<span class="cui-required"></span>
+																			<span class="cui-error-info cui-error-info-confirm"></span>
+																		</div>
+																		<div class="cui-clearfix cui-field-wrap cui-select-attending">
+																			<a href="#" class="cui_note_button">Add note</a>
+																			<div id="cui-note-'.$post_id.'" class="cui-wrap-textarea cui_note_texarea">
+																				<textarea name="comment_note" id="comment_note" class="waci_comment cui-textarea autosize-textarea cui-error" style="overflow: hidden visible; overflow-wrap: break-word; resize: none;"></textarea>
+																			</div>
+																		</div>
+																			
+																	<div class="cui-wrap-submit cui-clearfix"><p class="form-submit"><span class="cui-hide">Do not change these fields following</span><input type="text" class="cui-hide" name="name" value="username"><input type="text" class="cui-hide" name="nombre" value=""><input type="text" class="cui-hide" name="form-cui" value=""><input type="button" class="cui-form-btn cui-cancel-btn" value="Cancel"><input name="submit" id="submit-19910" value="Kirimkan Ucapan" type="submit"><input type="hidden" name="commentpress" value="true"><input type="hidden" name="comment_post_ID" value="19910">
+																<input type="hidden" name="comment_parent" value="0">
+																</p></div></form></div></div><!--.cui-container-form--></div><!--.cui-clearfix cui-relative--></div><!--.cui-wrap-form--><div id="cui-comment-status-19910" class="cui-comment-status" style="display: none;"></div><div id="cui-box" class="cui-box">
+																	<ul id="cui-container-comment-19910" class="cui-container-comments cui-order-DESC cui-has-9-comments cui-multiple-comments" data-order="DESC" style="display: block;"></ul>
 															</div>
+															<div class="cui-holder-19910 cui-holder"></div>
+														</div>
+													</div><!--.cui-wrapper-->
+												</div>
 														</div>
 														<div class="elementor-element elementor-element-1a7ad18c wdp-sticky-section-no elementor-widget elementor-widget-spacer"
 															data-id="1a7ad18c" data-element_type="widget"
@@ -10238,7 +10321,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="1600" height="625"
-																					src="images/bca.png"
+																					src="{{ asset('images/bca.png') }}"
 																					class="attachment-full size-full wp-image-19804"
 																					alt="" />
 																			</div>
@@ -10250,7 +10333,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="150" height="150"
-																					src="images/chip-atm.png"
+																					src="{{ asset('images/chip-atm.png') }}"
 																					class="attachment-full size-full wp-image-19805"
 																					alt="" />
 																			</div>
@@ -10351,7 +10434,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="1600" height="625"
-																					src="images/bri.png"
+																					src="{{ asset('images/bri.png') }}"
 																					class="attachment-full size-full wp-image-19804"
 																					alt="" />
 																			</div>
@@ -10363,7 +10446,7 @@
 																			<div class="elementor-widget-container">
 																				<img loading="lazy" decoding="async"
 																					width="150" height="150"
-																					src="images/chip-atm.png"
+																					src="{{ asset('images/chip-atm.png') }}"
 																					class="attachment-full size-full wp-image-19805"
 																					alt="" />
 																			</div>
@@ -10378,7 +10461,7 @@
 
 																				<div class="head-title">Tami Nur Herawati
 																				</div>
-																				<div class="elementor-button-wrapper">
+																				<div class="elementor-button-wrapper" style="margin-left: 50px;">
 																					<div
 																						class="copy-content spancontent">
 																						059801006133539</div>
@@ -10633,7 +10716,7 @@
 											data-widget_type="image.default">
 											<div class="elementor-widget-container">
 												<img fetchpriority="high" decoding="async" width="640" height="960"
-													src="images/DSCF6531.webp"
+													src="{{ asset('images/DSCF6531.webp') }}"
 													class="attachment-full size-full wp-image-19906" alt="" />
 											</div>
 										</div>
@@ -10689,7 +10772,7 @@
 															data-widget_type="image.default">
 															<div class="elementor-widget-container">
 																<img decoding="async" width="480" height="384"
-																	src="images/giphy-1-1-2.gif"
+																	src="{{ asset('images/giphy-1-1-2.gif') }}"
 																	class="attachment-large size-large wp-image-19775"
 																	alt="" />
 															</div>
@@ -10728,32 +10811,19 @@
 											class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-471a11ad elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
 											data-id="471a11ad" data-element_type="section">
 											<div class="elementor-container elementor-column-gap-default">
-												{{-- <div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-68e84052 wdp-sticky-section-no"
+												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-68e84052 wdp-sticky-section-no"
 													data-id="68e84052" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-1c5b2456 elementor-align-right wdp-sticky-section-no elementor-widget elementor-widget-button"
 															data-id="1c5b2456" data-element_type="widget"
 															data-widget_type="button.default">
 															<div class="elementor-widget-container">
-																<div class="elementor-button-wrapper">
-																	<a class="elementor-button elementor-button-link elementor-size-sm"
-																		href="http://astacode.id/" target="_blank"
-																		rel="noopener">
-																		<span class="elementor-button-content-wrapper">
-																			<span
-																				class="elementor-button-icon elementor-align-icon-left">
-																				<i aria-hidden="true"
-																					class="fas fa-globe-africa"></i>
-																			</span>
-																			<span class="elementor-button-text"></span>
-																		</span>
-																	</a>
-																</div>
+																<div class="elementor-button-wrapper"></div>
 															</div>
 														</div>
 													</div>
-												</div> --}}
-												<div class="has_eae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
+												</div>
+												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
 													data-id="d6ca7e6" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-7d22e8fe elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button"
@@ -10777,31 +10847,18 @@
 														</div>
 													</div>
 												</div>
-												{{-- <div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4fc1a28e wdp-sticky-section-no"
+												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4fc1a28e wdp-sticky-section-no"
 													data-id="4fc1a28e" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-10b761df elementor-align-left wdp-sticky-section-no elementor-widget elementor-widget-button"
 															data-id="10b761df" data-element_type="widget"
 															data-widget_type="button.default">
 															<div class="elementor-widget-container">
-																<div class="elementor-button-wrapper">
-																	<a class="elementor-button elementor-button-link elementor-size-sm"
-																		href=""
-																		target="_blank" rel="noopener">
-																		<span class="elementor-button-content-wrapper">
-																			<span
-																				class="elementor-button-icon elementor-align-icon-left">
-																				<i aria-hidden="true"
-																					class="fas fa-shopping-cart"></i>
-																			</span>
-																			<span class="elementor-button-text"></span>
-																		</span>
-																	</a>
-																</div>
+																<div class="elementor-button-wrapper"></div>
 															</div>
 														</div>
 													</div>
-												</div> --}}
+												</div>
 											</div>
 										</section>
 										<section
@@ -11002,7 +11059,7 @@
 
 
 			jQuery(".elementor-element-3b75a56a").children('.eae-section-bs').children('.eae-section-bs-inner').vegas({
-				slides: [{ "src": "https:\/\/galipat-story.com\/wp-content\/uploads\/2024\/03\/12.png" }],
+				slides: [{ "src": "{{ asset('images/12.png') }}" }],
 				transition: 'zoomOut',
 				animation: 'kenburns',
 				overlay: bgoverlay,
@@ -11083,7 +11140,7 @@
 		/* ]]> */
 	</script> --}}
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/eae.min.js?ver=1.12.12"
+		src="{{ asset('js/eae.min.js') }}?ver=1.12.12"
 		id="eae-main-js"></script>
 	<script type="text/javascript"
 		src="{{ asset('js/index.min.js') }}?ver=1.12.12"
@@ -11092,79 +11149,78 @@
 		src="{{ asset('js/v4-shims.min.js') }}"
 		id="font-awesome-4-shim-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/animated-main.min.js?ver=1.0"
+		src="{{ asset('js/animated-main.min.js') }}?ver=1.0"
 		id="animated-main-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/particles.min.js?ver=2.0.0"
+		src="{{ asset('js/particles.min.js') }}?ver=2.0.0"
 		id="eae-particles-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/magnific.min.js?ver=1.1.0"
+		src="{{ asset('js/magnific.min.js') }}?ver=1.1.0"
 		id="wts-magnific-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/vegas.min.js?ver=2.4.0"
+		src="{{ asset('js/vegas.min.js') }}?ver=2.4.0"
 		id="vegas-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js"
+		src="{{ asset('js/wdp-swiper.min.js') }}"
 		id="wdp-swiper-js-js"></script>
-	<script type="text/javascript" src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/qr-code.js"
+	<script type="text/javascript" src="{{ asset('js/qr-code.js') }}"
 		id="weddingpress-qr-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/wdp-horizontal.js"
+		src="{{ asset('js/wdp-horizontal.js') }}"
 		id="wdp-horizontal-js-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/exad-scripts.min.js?ver=3.0.11"
+		src="{{ asset('js/exad-scripts.min.js') }}?ver=3.0.11"
 		id="exad-main-script-js"></script>
 	<script type="text/javascript" id="cui_js_script-js-extra">
 		/* <![CDATA[ */
-		var CUI_WP = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "cuiNonce": "94710c413f", "jpages": "true", "jPagesNum": "15", "textCounter": "false", "textCounterNum": "500", "widthWrap": "", "autoLoad": "true", "thanksComment": "Thanks for your comment!", "thanksReplyComment": "Thanks for answering the comment!", "duplicateComment": "You might have left one of the fields blank, or duplicate comments", "accept": "Accept", "cancel": "Cancel", "reply": "Reply", "textWriteComment": "Berikan Ucapan Dan Doa", "classPopularComment": "cui-popular-comment", "textToDisplay": "Text to display", "textCharacteresMin": "2 characters minimum", "textNavNext": "Next", "textNavPrev": "Previous", "textMsgDeleteComment": "Do you want delete this comment?", "textLoadMore": "Load more" };
+		var CUI_WP = { "ajaxurl": "{{ route('comment.list') }}", "cuiNonce": "94710c413f", "jpages": "true", "jPagesNum": "15", "textCounter": "false", "textCounterNum": "500", "widthWrap": "", "autoLoad": "true", "thanksComment": "Thanks for your comment!", "thanksReplyComment": "Thanks for answering the comment!", "duplicateComment": "You might have left one of the fields blank, or duplicate comments", "accept": "Accept", "cancel": "Cancel", "reply": "Reply", "textWriteComment": "Berikan Ucapan Dan Doa", "classPopularComment": "cui-popular-comment", "textToDisplay": "Text to display", "textCharacteresMin": "2 characters minimum", "textNavNext": "Next", "textNavPrev": "Previous", "textMsgDeleteComment": "Do you want delete this comment?", "textLoadMore": "Load more" };
 		/* ]]> */
 	</script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/cui_script.js?ver=1.0.0"
-		src="{{ asset('js/cu') }}?ver=1.0.0"
+		src="{{ asset('js/cui_script.js') }}?ver=1.0.0"
 		id="cui_js_script-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.jPages.min.js?ver=0.7"
+		src="{{ asset('js/jquery.jPages.min.js') }}?ver=0.7"
 		id="cui_jPages-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.placeholder.min.js?ver=2.0.7"
+		src="{{ asset('js/jquery.placeholder.min.js') }}?ver=2.0.7"
 		id="cui_placeholder-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/autosize.min.js?ver=1.14"
+		src="{{ asset('js/autosize.min.js') }}?ver=1.14"
 		id="cui_autosize-js"></script>
 	<script type="text/javascript" id="happy-elementor-addons-js-extra">
 		/* <![CDATA[ */
-		var HappyLocalize = { "ajax_url": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "nonce": "517911ad23", "pdf_js_lib": "https:\/\/galipat-story.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib" };
+		// var HappyLocalize = { "ajax_url": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "nonce": "517911ad23", "pdf_js_lib": "https:\/\/galipat-story.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib" };
 		/* ]]> */
 	</script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.5"
+		src="{{ asset('js/happy-addons.min.js') }}?ver=3.8.5"
 		id="happy-elementor-addons-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6"
+		src="{{ asset('js/lottie.min.js') }}?ver=5.6.6"
 		id="lottie-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"
+		src="{{ asset('js/e-gallery.min.js') }}?ver=1.2.0"
 		id="elementor-gallery-js"></script>
 	<script type="text/javascript" id="bdt-uikit-js-extra">
 		/* <![CDATA[ */
-		var element_pack_ajax_login_config = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "loadingmessage": "Sending user info, please wait...", "unknownerror": "Unknown error, make sure access is correct!" };
-		var ElementPackConfig = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "nonce": "73a74e514f", "data_table": { "language": { "lengthMenu": "Show _MENU_ Entries", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "search": "Search :", "paginate": { "previous": "Previous", "next": "Next" } } }, "contact_form": { "sending_msg": "Sending message please wait...", "captcha_nd": "Invisible captcha not defined!", "captcha_nr": "Could not get invisible captcha response!" }, "mailchimp": { "subscribing": "Subscribing you please wait..." }, "elements_data": { "sections": [], "columns": [], "widgets": [] } };
+		// var element_pack_ajax_login_config = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "loadingmessage": "Sending user info, please wait...", "unknownerror": "Unknown error, make sure access is correct!" };
+		// var ElementPackConfig = { "ajaxurl": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "nonce": "73a74e514f", "data_table": { "language": { "lengthMenu": "Show _MENU_ Entries", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "search": "Search :", "paginate": { "previous": "Previous", "next": "Next" } } }, "contact_form": { "sending_msg": "Sending message please wait...", "captcha_nd": "Invisible captcha not defined!", "captcha_nr": "Could not get invisible captcha response!" }, "mailchimp": { "subscribing": "Subscribing you please wait..." }, "elements_data": { "sections": [], "columns": [], "widgets": [] } };
 		/* ]]> */
 	</script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.5.5"
+		src="{{ asset('js/bdt-uikit.min.js') }}?ver=3.5.5"
 		id="bdt-uikit-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.1"
+		src="{{ asset('js/webpack.runtime.min.js') }}?ver=3.15.1"
 		id="elementor-webpack-runtime-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.15.1"
+		src="{{ asset('js/frontend-modules.min.js') }}?ver=3.15.1"
 		id="elementor-frontend-modules-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+		src="{{ asset('js/waypoints.min.js') }}?ver=4.0.2"
 		id="elementor-waypoints-js"></script>
-	<script type="text/javascript" src="https://galipat-story.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+	<script type="text/javascript" src="{{ asset('js/core.min.js') }}?ver=1.13.3"
 		id="jquery-ui-core-js"></script>
 	<script type="text/javascript" id="elementor-frontend-js-before">
 		/* <![CDATA[ */
@@ -11172,19 +11228,19 @@
 		/* ]]> */
 	</script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.15.1"
+		src="{{ asset('js/frontend.min.js') }}?ver=3.15.1"
 		id="elementor-frontend-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/bdthemes-element-pack/assets/js/element-pack-site.min.js?ver=5.6.0"
+		src="{{ asset('js/element-pack-site.min.js') }}?ver=5.6.0"
 		id="element-pack-site-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.11.4"
+		src="{{ asset('js/webpack-pro.runtime.min.js') }}?ver=3.11.4"
 		id="elementor-pro-webpack-runtime-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+		src="{{ asset('js/hooks.min.js') }}?ver=2810c76e705dd1a53b18"
 		id="wp-hooks-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+		src="{{ asset('js/i18n.min.js') }}?ver=5e580eb46a90c2b997e6"
 		id="wp-i18n-js"></script>
 	<script type="text/javascript" id="wp-i18n-js-after">
 		/* <![CDATA[ */
@@ -11197,40 +11253,34 @@
 		/* ]]> */
 	</script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.11.4"
+		src="{{ asset('js/element-pro-frontend.min.js') }}?ver=3.11.4"
 		id="elementor-pro-frontend-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.11.4"
+		src="{{ asset('js/elements-handlers.min.js') }}?ver=3.11.4"
 		id="pro-elements-handlers-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.11.4"
+		src="{{ asset('js/jquery.sticky.min.js') }}?ver=3.11.4"
 		id="e-sticky-js"></script>
-	<script type="text/javascript" id="weddingpress-wdp-js-extra">
+	{{-- <script type="text/javascript" id="weddingpress-wdp-js-extra">
 		/* <![CDATA[ */
 		var cevar = { "ajax_url": "https:\/\/galipat-story.com\/wp-admin\/admin-ajax.php", "plugin_url": "https:\/\/galipat-story.com\/wp-content\/plugins\/weddingpress\/" };
 		/* ]]> */
-	</script>
+	</script> --}}
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/wdp.min.js?ver=3.0.11"
+		src="{{ asset('js/wdp.min.js') }}?ver=3.0.11"
 		id="weddingpress-wdp-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.0.11"
+		src="{{ asset('js/guest-form.js') }}?ver=3.0.11"
 		id="kirim-kit-js"></script>
 	<script type="text/javascript"
-		src="https://galipat-story.com/wp-content/themes/landingpress-wp/assets/js/script.min.js?ver=3.4.1"
+		src="{{ asset('js/script.min.js') }}?ver=3.4.1"
 		id="landingpress-js"></script>
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>AOS.init();</script>
-	<!-- Facebook Pixel Code -->
+	{{-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>AOS.init();</script> --}}
+	{{-- <!-- Facebook Pixel Code -->
 	<noscript><img height="1" width="1" alt="fbpx" style="display:none"
-			src="https://www.facebook.com/tr?id=724279088725440&amp;ev=PageView&amp;noscript=1" /></noscript>
+			src="https://www.facebook.com/tr?id=724279088725440&amp;ev=PageView&amp;noscript=1" /></noscript> --}}
    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.12/sweetalert2.all.min.js"></script>
-
-
-	<!-- ajax post id="form-comment" -->
-     <!-- jquery cdn -->
-  
-	
 </body>
 
 
