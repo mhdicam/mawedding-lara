@@ -98,25 +98,25 @@
 		}
 
     </style>
-	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Feed"
+	{{-- <link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Feed"
 		href="https://galipat-story.com/feed/" />
 	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; Umpan Komentar"
 		href="https://galipat-story.com/comments/feed/" />
 	<link rel="alternate" type="application/rss+xml" title="Mawedding &raquo; PR#31 Umpan Komentar"
-		href="https://galipat-story.com/pr31/feed/" />
+		href="https://galipat-story.com/pr31/feed/" /> --}}
 	<link rel='stylesheet' id='bdt-uikit-css'
-		href='https://galipat-story.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.5.5'
+		href='{{ asset('css/bdt-uikit.css') }}?ver=3.5.5'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='element-pack-site-css'
-		href='https://galipat-story.com/wp-content/plugins/bdthemes-element-pack/assets/css/element-pack-site.css?ver=5.6.0'
+		href='{{ asset('css/element-pack-site.css') }}?ver=5.6.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='wp-block-library-css'
-		href='https://galipat-story.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2' type='text/css'
+		href='{{ asset('css/style-block-library.min.css') }}?ver=6.7' type='text/css'
 		media='all' />
 		<style>
 			@font-face {
 				font-family: qene;
-				src: url(font/qene.otf);
+				src: url({{ asset('fonts/qene.otf') }});
 			}
 			@font-face {
 				font-family: iskry;
@@ -574,34 +574,34 @@
 		href='{{ asset('css/uaf.css') }}?ver=1710774256' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='eae-css-css'
-		href='https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/css/eae.min.css?ver=1.12.12'
+		href='{{ asset('css/eae.min.css') }}?ver=1.12.12'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='font-awesome-4-shim-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=1.0'
+		href='{{ asset('css/v4-shims.min.css') }}?ver=1.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='font-awesome-5-all-css'
-		href='https://galipat-story.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.0'
+		href='{{ asset('css/all.min.css') }}?ver=1.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='vegas-css-css'
-		href='https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/vegas.min.css?ver=2.4.0'
+		href='{{ asset('css/vegas.min.css') }}?ver=2.4.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='eef-frontend-style-css'
-		href='https://galipat-story.com/wp-content/plugins/extensions-for-elementor-form/assets/style.css?ver=2.0.2'
+		href='{{ asset('css/eef-frontend-style.css') }}?ver=2.0.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='wdp-centered-css-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/wdp-centered-timeline.min.css?ver=6.6.2'
+		href='{{ asset('css/wdp-centered-timeline.min.css') }}?ver=6.6.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='wdp-horizontal-css-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/wdp-horizontal-styles.min.css?ver=6.6.2'
+		href='{{ asset('css/wdp-horizontal-styles.min.css') }}?ver=6.6.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='wdp-fontello-css-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/wdp-fontello.css?ver=6.6.2'
+		href='{{ asset('css/wdp-fontello.css') }}?ver=6.6.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='exad-main-style-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/assets/css/exad-styles.min.css?ver=6.6.2'
+		href='{{ asset('css/exad-styles.min.css') }}?ver=6.6.2'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='cui_style-css'
-		href='https://galipat-story.com/wp-content/plugins/weddingpress/addons/comment-kit2//css/cui_style.css?ver=1.0.0'
+		href='{{ asset('css/cui_style.css') }}?ver=1.0.0'
 		type='text/css' media='screen' />
 	<style id='cui_style-inline-css' type='text/css'>
 		.cui-wrapper {
@@ -653,7 +653,6 @@
 		href='{{ asset('css/icons.min.css?ver=5.21.0') }}'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
-		{{-- href='https://galipat-story.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.1' --}}
 		href='{{ asset('css/frontend-lite.min.css') }}?ver=3.15.1'
 		type='text/css' media='all' />
 	<style id='elementor-frontend-inline-css' type='text/css'>
@@ -3528,7 +3527,7 @@
 		.elementor-19910 .elementor-element.elementor-element-309918f9:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-309918f9>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3617,7 +3616,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-11d919b9:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-11d919b9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("../images/11.png");
+			background-image: url("{{ asset('images/11.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3947,7 +3946,7 @@
 		.elementor-19910 .elementor-element.elementor-element-118902f1:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-118902f1>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4049,7 +4048,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-1e9c0754:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-1e9c0754>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("../images/11.png");
+			background-image: url("{{ asset('images/11.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4095,7 +4094,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-450294cc>.elementor-element-populated>.elementor-background-overlay {
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 			opacity: 1;
@@ -4262,7 +4261,7 @@
 		}
 
 		.elementor-19910 .elementor-element.elementor-element-25852b41>.elementor-element-populated>.elementor-background-overlay {
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 			opacity: 0.99;
@@ -4648,7 +4647,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-2705c80e:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-2705c80e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("../images/11.png");
+			background-image: url("{{ asset('images/11.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4734,7 +4733,7 @@
 		.elementor-19910 .elementor-element.elementor-element-7d629d53:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-7d629d53>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -4863,7 +4862,7 @@
 		.elementor-19910 .elementor-element.elementor-element-1b7dc55f:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-19910 .elementor-element.elementor-element-1b7dc55f>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
 			background-color: #FFFFFF;
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -5322,7 +5321,7 @@
 
 		.elementor-19910 .elementor-element.elementor-element-3712a778:not(.elementor-motion-effects-element-type-background),
 		.elementor-19910 .elementor-element.elementor-element-3712a778>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("../images/merak.png");
+			background-image: url("{{ asset('images/merak.png') }}");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -8517,12 +8516,12 @@
 								jQuery(".elementor-element-57952b39").prepend('<div class="eae-section-bs"><div class="eae-section-bs-inner"></div></div>');
 								if ('' === 'yes') {
 
-									var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder//assets/lib/vegas/overlays/00.png';
+									var bgoverlay = '{{ asset('images/00.png') }}';
 								} else {
 									if ('01') {
-										var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/01.png';
+										var bgoverlay = '{{ asset('images/01.png') }}';
 									} else {
-										var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/00.png';
+										var bgoverlay = '{{ asset('images/00.png') }}';
 									}
 								}
 
@@ -9474,170 +9473,6 @@
 								</div>
 							</div>
 						</section>
-						<!-- <section class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-66c4a1a3 animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no elementor-invisible" data-id="66c4a1a3" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="has_eae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5034d05c wdp-sticky-section-no" data-id="5034d05c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-23b95887 wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="23b95887" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-4c589b36 wdp-sticky-section-no elementor-widget elementor-widget-heading" data-id="4c589b36" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Live Streaming</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-e57521b wdp-sticky-section-no elementor-widget elementor-widget-heading" data-id="e57521b" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Bagi  tamu undangan yang berhalangan hadir dan ingin menyaksikan acara pernikahan kami silahkan ikuti live streaming acara pernikahan kami dengan klik tombol di bawah.</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-7c0aa28b elementor-mobile-align-center elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button" data-id="7c0aa28b" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-size-xs" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">live streaming</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-1ab13a9b wdp-sticky-section-no elementor-widget elementor-widget-spacer" data-id="1ab13a9b" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section> -->
-						{{-- <section
-							class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-a93f183 elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
-							data-id="a93f183" data-element_type="section"
-							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-container elementor-column-gap-no">
-								<div class="has_eae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4f8f6243 wdp-sticky-section-no"
-									data-id="4f8f6243" data-element_type="column">
-									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-1654d8ca wdp-sticky-section-no elementor-widget elementor-widget-spacer"
-											data-id="1654d8ca" data-element_type="widget"
-											data-widget_type="spacer.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-spacer">
-													<div class="elementor-spacer-inner"></div>
-												</div>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-61b92aaf animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="61b92aaf" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_mobile&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:100}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<span class="elementor-heading-title elementor-size-default">Love
-													Story</span>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-12b725e5 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-image"
-											data-id="12b725e5" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
-											data-widget_type="image.default">
-											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="640" height="960"
-													src="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754283-1-1.jpg"
-													class="attachment-large size-large wp-image-19787" alt="" />
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-55618b82 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="55618b82" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h2 class="elementor-heading-title elementor-size-default">Awal Bertemu
-												</h2>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-2a98e1a3 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="2a98e1a3" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<p class="elementor-heading-title elementor-size-default">Lorem ipsum
-													dolor sit amet, consectetur adipiscing elit. Erat enim res aperta.
-													Ne discipulum abducam, times. Primum quid tu dicis breve? An haec ab
-													eo non dicuntur?</p>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-4920878 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-image"
-											data-id="4920878" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
-											data-widget_type="image.default">
-											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="640" height="960"
-													src="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754179-1.jpg"
-													class="attachment-large size-large wp-image-19909" alt="" />
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-6c09269d animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="6c09269d" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h2 class="elementor-heading-title elementor-size-default">Komitmen</h2>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-1ebb103f animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="1ebb103f" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<p class="elementor-heading-title elementor-size-default">Lorem ipsum
-													dolor sit amet, consectetur adipiscing elit. Erat enim res aperta.
-													Ne discipulum abducam, times. Primum quid tu dicis breve? An haec ab
-													eo non dicuntur?</p>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-33a2e2d5 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-image"
-											data-id="33a2e2d5" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
-											data-widget_type="image.default">
-											<div class="elementor-widget-container">
-												<img loading="lazy" decoding="async" width="640" height="960"
-													src="https://galipat-story.com/wp-content/uploads/2024/03/pexels-ba-tik-3754284-1-1.jpg"
-													class="attachment-large size-large wp-image-19794" alt="" />
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-7fc780d0 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="7fc780d0" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h2 class="elementor-heading-title elementor-size-default">Bertunagan
-												</h2>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-4725e027 animated-slow wdp-sticky-section-no elementor-invisible elementor-widget elementor-widget-heading"
-											data-id="4725e027" data-element_type="widget"
-											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
-											data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<p class="elementor-heading-title elementor-size-default">Lorem ipsum
-													dolor sit amet, consectetur adipiscing elit. Erat enim res aperta.
-													Ne discipulum abducam, times. Primum quid tu dicis breve? An haec ab
-													eo non dicuntur?</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section> --}}
 						<section
 							class="has_eae_slider elementor-section elementor-inner-section elementor-element elementor-element-2705c80e elementor-section-boxed elementor-section-height-default elementor-section-height-default wdp-sticky-section-no"
 							data-id="2705c80e" data-element_type="section"
@@ -9664,13 +9499,6 @@
 												</h1>
 											</div>
 										</div>
-										<!-- <div class="elementor-element elementor-element-676e733a wdp-sticky-section-no elementor-widget elementor-widget-video" data-id="676e733a" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/tgSw90Ga3us&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.15.0 - 02-08-2023 */
-.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
-			<div class="elementor-video"></div>		</div>
-				</div>
-				</div> -->
 										<div class="elementor-element elementor-element-6580dc8f wdp-sticky-section-no elementor-widget elementor-widget-gallery"
 											data-id="6580dc8f" data-element_type="widget"
 											data-settings="{&quot;gallery_layout&quot;:&quot;justified&quot;,&quot;ideal_row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:161,&quot;sizes&quot;:[]},&quot;ideal_row_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;ideal_row_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}"
@@ -10925,7 +10753,7 @@
 														</div>
 													</div>
 												</div> --}}
-												<div class="has_eae_slider elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
+												<div class="has_eae_slider elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d6ca7e6 wdp-sticky-section-no"
 													data-id="d6ca7e6" data-element_type="column">
 													<div class="elementor-widget-wrap elementor-element-populated">
 														<div class="elementor-element elementor-element-7d22e8fe elementor-align-center wdp-sticky-section-no elementor-widget elementor-widget-button"
@@ -11163,12 +10991,12 @@
 			jQuery(".elementor-element-3b75a56a").prepend('<div class="eae-section-bs"><div class="eae-section-bs-inner"></div></div>');
 			if ('' === 'yes') {
 
-				var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder//assets/lib/vegas/overlays/00.png';
+				var bgoverlay = '{{ asset('images/00.png') }}';
 			} else {
 				if ('01') {
-					var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/01.png';
+					var bgoverlay = '{{ asset('images/01.png') }}';
 				} else {
-					var bgoverlay = 'https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/overlays/00.png';
+					var bgoverlay = '{{ asset('images/00.png') }}';
 				}
 			}
 
@@ -11261,7 +11089,7 @@
 		src="{{ asset('js/index.min.js') }}?ver=1.12.12"
 		id="eae-index-js"></script>
 	<script type="text/javascript"
-		src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v4-shims.min.css"
+		src="{{ asset('js/v4-shims.min.js') }}"
 		id="font-awesome-4-shim-js"></script>
 	<script type="text/javascript"
 		src="https://galipat-story.com/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/animated-main.min.js?ver=1.0"
