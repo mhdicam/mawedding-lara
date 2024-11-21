@@ -363,6 +363,7 @@ jQuery(document).ready(function ($) {
       contentType: false,
       beforeSend: function () {
         status.addClass('cui-loading').html('<span class="cuio-loading"></span>').show();
+        $('input[name="author"]').val("");
       },
       success: function (data, textStatus) {
         $('meta[name=_token]').attr('content', data._token)
