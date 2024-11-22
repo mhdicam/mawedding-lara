@@ -30,19 +30,19 @@
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-emerald-100">
-                        @foreach ($undangan as $u )
+                        @foreach ($undangan as $u)
                         <tr class='hover:bg-emerald-50 transition-colors'>
-                            <td class='px-6 py-4 text-sm text-gray-700'>{{$u->kode}}</td>
-                            <td class='px-6 py-4 text-sm text-gray-700'>{{$u->nama_tamu}}</td>
+                            <td class='px-6 py-4 text-sm text-gray-700'>{{ $u->kode }}</td>
+                            <td class='px-6 py-4 text-sm text-gray-700'>{{ $u->nama_tamu }}</td>
                             <td class='px-6 py-4'>
-                                <a href='{{route('tamu.show',['kode' =>$u->kode])}}'
+                                <a href='{{route('tamu.show',['kode' => $u->kode])}}'
                                    class='inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium rounded-md transition-colors'>
                                     <i class='fas fa-link mr-2'></i>
                                     View Invitation
                                 </a>
                             </td>
                             <td class='px-6 py-4'>
-            <a href='https://api.whatsapp.com/send?phone=&text=Assalamu%27alaikum%20Warahmatullahi%20Wabarakatuh%0ABismillahirahmanirrahim.%0A%0ATanpa%20mengurangi%20rasa%20hormat%2C%20perkenankan%20kami%20mengundang%20Bapak%2FIbu%2FSaudara%2Fi%2C%20untuk%20menghadiri%20acara%20pernikahan%20kami.%0A%0ABerikut%20link%20undangan%20kami%3A%0A{{ urlencode(route('tamu.show', ['kode' => $u->kode])) }}%0A%0AMerupakan%20suatu%20kehormatan%20bagi%20kami%20apabila%20Bapak%2FIbu%2FSaudara%2Fi%20berkenan%20hadir%20dan%20memberikan%20doa%20restu.%0A%0AWassalamu%27alaikum%20Warahmatullahi%20Wabarakatuh'
+            <a href='https://api.whatsapp.com/send?phone=&text=Bismillahirahmanirrahim.%0AAssalamu%27alaikum%20Warahmatullahi%20Wabarakatuh%0A%0A%2AYth.%20%0A{{ $u->nama_tamu }}%20%0A%0AMaha%20suci%20Allah%20yang%20telah%20menciptakan%20makhluk-Nya%20berpasang-pasangan.%20Sungguh%20besar%20rahmat%20dan%20karunia%20yang%20diberikan-Nya%20kepada%20keluarga%20kami.%0A%0ATanpa%20mengurangi%20rasa%20hormat%2C%20perkenankan%20kami%20mengundang%20Bapak%2FIbu%2FSaudara%2Fi%2C%20untuk%20menghadiri%20acara%20pernikahan%20kami.%0A%0A%5F%2AMuhammad%20Hissamudin,%20S.Kom%20dan%20Tami%20Nur%20Herawati,%20S.Stat%2A%5F%0A%0ABerikut%20link%20undangan%20kami%3A%0A{{ urlencode(route('tamu.show', ['kode' => $u->kode])) }}%0A%0AMerupakan%20suatu%20kehormatan%20bagi%20kami%20apabila%20Bapak%2FIbu%2FSaudara%2Fi%20berkenan%20hadir%20dan%20memberikan%20doa%20restu.%0A%0AWassalamu%27alaikum%20Warahmatullahi%20Wabarakatuh'
                class='inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-md transition-colors'>
                 <i class='fab fa-whatsapp mr-2'></i>
                 Send Invitation
@@ -50,7 +50,7 @@
         </td>
                             <td class='px-6 py-4'>
                                 <!-- Delete with SweetAlert Confirmation -->
-                                <form action="{{route('tamu.destroy',['id'=>$u->id])}}" method="post" class="delete-form">
+                                <form action="{{route('tamu.destroy',['id' => $u->id ])}}" method="post" class="delete-form">
                                     @csrf
                                     @method('DELETE')
                                     <button type="button" class="rounded-md px-2 py-1 text-white bg-red-500 items-center delete-btn">
@@ -81,7 +81,7 @@
 
     <script>
         // Success message from session
-        @if(session('success'))
+        @if (session('success'))
             Swal.fire({
                 icon: 'success',
                 title: 'Success',
